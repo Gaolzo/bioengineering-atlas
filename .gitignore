@@ -1,0 +1,8 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+research/scholar-import/
+research/generated/
+.netlify/
+.DS_Store

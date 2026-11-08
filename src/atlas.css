@@ -1,0 +1,90 @@
+.atlas-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-block: 0 1.5rem;
+}
+.atlas-tab {
+  min-height: 2.5rem;
+  align-content: center;
+  text-decoration: none;
+}
+.atlas-tab[aria-current="page"], .collaboration-grid [aria-pressed="true"] {
+  background: #11372b;
+  color: #fff;
+  border-color: #11372b;
+}
+.atlas-entry {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.atlas-entry h2, .atlas-study-list a, .timeline-card h2 { overflow-wrap: anywhere; }
+.atlas-entry > .text-link { margin-top: auto; }
+.entity-heading:focus { outline: none; }
+.entity-alias { margin: 0 0 1.25rem; }
+.atlas-study-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  gap: 1rem;
+}
+.atlas-study-list .byline { margin-block: .35rem; }
+.atlas-timeline {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+}
+.atlas-timeline > li {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  align-items: start;
+  gap: .75rem;
+}
+.timeline-year {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-block: .8rem;
+}
+.timeline-card h2 { font-size: 1.25rem; }
+.collaboration-figure { margin: 0 0 1rem; }
+.collaboration-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: .8rem;
+  background: #edf5ee;
+}
+.collaboration-svg line {
+  stroke: #718e82;
+  stroke-width: 1.5;
+}
+.collaboration-svg .selected-edge { stroke: #174e3a; stroke-width: 3; }
+.collaboration-svg circle { fill: #dce9d5; stroke: #52745d; stroke-width: 1.5; }
+.collaboration-svg .selected-node circle, .collaboration-svg .network-core circle {
+  fill: #174e3a;
+  stroke: #174e3a;
+}
+.collaboration-svg text {
+  fill: #143428;
+  text-anchor: middle;
+  font-family: inherit;
+  font-size: 12px;
+}
+.collaboration-svg .network-count, .collaboration-svg .network-core text { font-weight: 700; }
+.collaboration-svg .selected-node .network-count, .collaboration-svg .network-core text { fill: #fff; }
+.collaboration-figure figcaption { margin-top: .6rem; }
+.method-grades { display: grid; gap: .95rem; }
+.method-grades dd { margin: .3rem 0 0; }
+.quiz-grid { display: grid; gap: 1rem; }
+.quiz-question { min-width: 0; padding: 0; margin: 0; border: 0; }
+.quiz-question legend { font-weight: 700; margin-bottom: .75rem; }
+.quiz-question label { display: flex; gap: .6rem; align-items: flex-start; padding-block: .35rem; }
+.quiz-question input { margin: .35rem 0 0; }
+.quiz-feedback:empty { display: none; }
+@media (max-width: 560px) {
+  .atlas-timeline > li { grid-template-columns: minmax(0, 1fr); gap: .2rem; }
+  .timeline-year { padding-block: .25rem; }
+}

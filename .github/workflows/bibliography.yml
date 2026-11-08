@@ -1,0 +1,33 @@
+name: Scientific bibliography review
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 15 10 * *'
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Consult bibliographic metadata for review
+        run: npm run bibliography:audit
+        env:
+          CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
+      - name: Attach the review report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: bibliography-review
+          path: research/generated/bibliography-update.json
+          if-no-files-found: error

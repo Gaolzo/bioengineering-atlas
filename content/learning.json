@@ -1,0 +1,89 @@
+{
+  "glossary": [
+    {
+      "term": { "es": "Operón", "en": "Operon" },
+      "meaning": { "es": "Conjunto de genes organizados en una región del genoma que pueden transcribirse juntos. Un operón puede contener más de un promotor y dar lugar a distintas unidades de transcripción.", "en": "A group of genes organized in a genomic region that can be transcribed together. An operon can contain more than one promoter and give rise to different transcription units." },
+      "publications": ["regulondb-4", "regulondb-5"]
+    },
+    {
+      "term": { "es": "Regulón", "en": "Regulon" },
+      "meaning": { "es": "Conjunto de genes o unidades de transcripción controlados por el mismo regulador. Sus miembros pueden estar en distintas regiones del cromosoma.", "en": "A set of genes or transcription units controlled by the same regulator. Its members can be in different chromosomal regions." },
+      "publications": ["regulondb-4", "regulondb-5"]
+    },
+    {
+      "term": { "es": "Promotor", "en": "Promoter" },
+      "meaning": { "es": "Región del ADN donde se inicia la transcripción. La ARN polimerasa y otros factores contribuyen a determinar cuándo se usa.", "en": "A DNA region where transcription begins. RNA polymerase and other factors help determine when it is used." },
+      "publications": ["regulondb-4", "crp-lac-p1"]
+    },
+    {
+      "term": { "es": "Factor de transcripción", "en": "Transcription factor" },
+      "meaning": { "es": "Proteína que influye en la transcripción. En los ejemplos del atlas, su efecto puede ser activador o represor según el blanco, la señal y el contexto.", "en": "A protein that influences transcription. In the atlas examples, its effect may be activating or repressing depending on the target, signal and context." },
+      "publications": ["global-regulators", "crp-lac-p1", "laci-lac-operators"]
+    },
+    {
+      "term": { "es": "Motivo de red", "en": "Network motif" },
+      "meaning": { "es": "Patrón pequeño de conexiones que aparece repetidamente en una red. Su frecuencia puede compararse con la de una red de referencia.", "en": "A small pattern of connections that recurs in a network. Its frequency can be compared with that in a reference network." },
+      "publications": ["ecoli-regulatory-modules", "ecoli-network-organization"]
+    },
+    {
+      "term": { "es": "Modelo booleano", "en": "Boolean model" },
+      "meaning": { "es": "Representación que asigna estados discretos a los componentes y usa reglas lógicas para actualizar esos estados.", "en": "A representation that assigns discrete states to components and uses logic rules to update those states." },
+      "publications": ["caulobacter-boolean-division"]
+    },
+    {
+      "term": { "es": "Hidrolizado", "en": "Hydrolysate" },
+      "meaning": { "es": "Mezcla resultante de la hidrólisis de un material. El hidrolizado de semilla de aguacate contiene azúcares reductores y otros componentes aprovechables en un medio de cultivo.", "en": "A mixture produced by hydrolyzing a material. Avocado seed hydrolysate contains reducing sugars and other components that can be used in a culture medium." },
+      "publications": ["avocado-seed-culture-medium", "avocado-d-lactate"]
+    },
+    {
+      "term": { "es": "Productividad volumétrica", "en": "Volumetric productivity" },
+      "meaning": { "es": "Cantidad de producto generada por volumen y tiempo, por ejemplo g/L/h. El rendimiento relaciona producto con sustrato y la concentración expresa cantidad por volumen.", "en": "Product generated per volume and time, for example g/L/h. Yield relates product to substrate, while concentration expresses amount per volume." },
+      "publications": ["avocado-d-lactate"]
+    },
+    {
+      "term": { "es": "Organogénesis in vitro", "en": "In vitro organogenesis" },
+      "meaning": { "es": "Formación de órganos, como raíces o brotes, en tejidos mantenidos bajo condiciones controladas de cultivo.", "en": "Formation of organs, such as roots or shoots, in tissues maintained under controlled culture conditions." },
+      "publications": ["stz-tobacco-organogenesis", "lemongrass-development-2023"]
+    },
+    {
+      "term": { "es": "Amplificación por recombinasa y polimerasa (RPA)", "en": "Recombinase polymerase amplification (RPA)" },
+      "meaning": { "es": "Amplificación de ácidos nucleicos a temperatura aproximadamente constante. La recombinasa ayuda a localizar la secuencia complementaria y una polimerasa extiende los cebadores.", "en": "Nucleic-acid amplification at approximately constant temperature. The recombinase helps find the complementary sequence and a polymerase extends the primers." },
+      "publications": ["rpa-ssb-2025", "papaya-rpa-2024"]
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": { "es": "¿Cuál es una diferencia entre un operón y un regulón?", "en": "What is one difference between an operon and a regulon?" },
+      "choices": [
+        { "es": "Los genes de un regulón pueden ocupar regiones separadas del cromosoma.", "en": "Genes in a regulon can occupy separate chromosomal regions." },
+        { "es": "Los regulones contienen proteínas y los operones contienen solamente metabolitos.", "en": "Regulons contain proteins and operons contain only metabolites." },
+        { "es": "Cada operón siempre se transcribe desde un único promotor.", "en": "Every operon is always transcribed from a single promoter." }
+      ],
+      "answer": 0,
+      "feedback": { "es": "Un regulón agrupa genes por control compartido. La organización de un operón permite transcribir genes vecinos juntos.", "en": "A regulon groups genes by shared regulation. The organization of an operon allows neighboring genes to be transcribed together." },
+      "publications": ["regulondb-4", "regulondb-5"]
+    },
+    {
+      "prompt": { "es": "¿Qué unidad corresponde a la productividad volumétrica de una fermentación?", "en": "Which unit corresponds to volumetric productivity in fermentation?" },
+      "choices": [
+        { "es": "g/L", "en": "g/L" },
+        { "es": "g de producto por g de sustrato", "en": "g product per g substrate" },
+        { "es": "g/L/h", "en": "g/L/h" }
+      ],
+      "answer": 2,
+      "feedback": { "es": "La productividad volumétrica incluye tanto el volumen como el tiempo. g/L corresponde a concentración y g/g expresa rendimiento en masa.", "en": "Volumetric productivity includes both volume and time. g/L is a concentration and g/g expresses mass yield." },
+      "publications": ["avocado-d-lactate"]
+    },
+    {
+      "prompt": { "es": "¿Qué puede aportar un modelo booleano de división celular?", "en": "What can a Boolean model of cell division provide?" },
+      "choices": [
+        { "es": "Una medición directa de concentraciones intracelulares.", "en": "A direct measurement of intracellular concentrations." },
+        { "es": "Una exploración de cómo ciertas reglas generan patrones de actividad.", "en": "An exploration of how particular rules generate patterns of activity." },
+        { "es": "Una prueba experimental de cada relación regulatoria.", "en": "An experimental test of every regulatory relationship." }
+      ],
+      "answer": 1,
+      "feedback": { "es": "Las simulaciones booleanas exploran consecuencias de reglas discretas. Las mediciones requieren experimentos.", "en": "Boolean simulations explore the consequences of discrete rules. Measurements require experiments." },
+      "publications": ["caulobacter-boolean-division"]
+    }
+  ]
+}

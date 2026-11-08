@@ -1,0 +1,1574 @@
+[
+  {
+    "id": "crp-lac-p1",
+    "title": "Mechanism of CRP-cAMP activation of lac operon transcription initiation activation of the P1 promoter",
+    "year": 1984,
+    "authors": [
+      "T. P. Malan",
+      "A. Kolb",
+      "H. Buc",
+      "W. R. McClure"
+    ],
+    "journal": "Journal of Molecular Biology",
+    "doi": "10.1016/0022-2836(84)90262-6",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/6098691/",
+    "topics": [
+      "regulation"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [
+      "crp",
+      "lacZ",
+      "lacY",
+      "lacA"
+    ],
+    "metabolites": [
+      "AMPc"
+    ],
+    "type": "article",
+    "attribution": "context",
+    "evidence": "A",
+    "objective": {
+      "es": "Explicar cómo CRP unido a AMPc activa el promotor principal del operón lac.",
+      "en": "Explain how cAMP-bound CRP activates the main promoter of the lac operon."
+    },
+    "methods": {
+      "es": "Ensayos de iniciación de la transcripción in vitro con variantes del promotor.",
+      "en": "In vitro transcription-initiation assays with promoter variants."
+    },
+    "result": {
+      "es": "CRP–AMPc favoreció la unión de la ARN polimerasa en lac P1 y redujo su unión en el sitio solapado lac P2.",
+      "en": "CRP–cAMP promoted RNA polymerase binding at lac P1 and reduced binding at the overlapping lac P2 site."
+    },
+    "limitation": {
+      "es": "Las mediciones in vitro dependen de la variante y del estado topológico del ADN.",
+      "en": "In vitro measurements depend on the promoter variant and DNA topology."
+    },
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Transcripción in vitro",
+        "en": "In vitro transcription"
+      }
+    ]
+  },
+  {
+    "id": "trpr-operator-repression",
+    "title": "trp repressor interactions with the trp aroH and trpR operators. Comparison of repressor binding in vitro and repression in vivo",
+    "year": 1988,
+    "authors": [
+      "L. S. Klig",
+      "J. Carey",
+      "C. Yanofsky"
+    ],
+    "journal": "Journal of Molecular Biology",
+    "doi": "10.1016/0022-2836(88)90557-8",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3050131/",
+    "topics": [
+      "regulation",
+      "metabolism"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [
+      "trpR",
+      "trpE",
+      "trpD",
+      "trpC",
+      "trpB",
+      "trpA",
+      "aroH"
+    ],
+    "metabolites": [
+      "L-triptófano"
+    ],
+    "type": "article",
+    "attribution": "context",
+    "evidence": "A",
+    "objective": {
+      "es": "Comparar la represión mediada por TrpR en los operones trp, aroH y trpR.",
+      "en": "Compare TrpR-mediated repression at the trp, aroH and trpR operons."
+    },
+    "methods": {
+      "es": "Fusiones a lacZ de copia única en células y ensayos de unión al ADN in vitro.",
+      "en": "Single-copy lacZ fusions in cells and in vitro DNA-binding assays."
+    },
+    "result": {
+      "es": "TrpR se unió a los tres operadores con afinidades similares. La magnitud de la represión en células varió según el promotor.",
+      "en": "TrpR bound the three operators with similar affinity. Repression in cells differed by promoter."
+    },
+    "limitation": {
+      "es": "Los cambios medidos corresponden a los promotores y constructos del estudio.",
+      "en": "The measured changes apply to the promoters and constructs tested."
+    },
+    "affiliation": [
+      "Stanford University"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Fusión a lacZ",
+        "en": "lacZ fusion"
+      },
+      {
+        "es": "Huella de DNasa",
+        "en": "DNase footprinting"
+      }
+    ]
+  },
+  {
+    "id": "laci-lac-operators",
+    "title": "The three operators of the lac operon cooperate in repression",
+    "year": 1990,
+    "authors": [
+      "S. Oehler",
+      "E. R. Eismann",
+      "H. Krämer",
+      "B. Müller-Hill"
+    ],
+    "journal": "The EMBO Journal",
+    "doi": "10.1002/j.1460-2075.1990.tb08199.x",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/2182324/",
+    "topics": [
+      "regulation"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [
+      "lacI",
+      "lacZ",
+      "lacY",
+      "lacA"
+    ],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "context",
+    "evidence": "A",
+    "objective": {
+      "es": "Distinguir los papeles de los tres operadores cromosómicos del operón lac en la represión.",
+      "en": "Distinguish the contributions of the three chromosomal lac operators to repression."
+    },
+    "methods": {
+      "es": "Inactivación sistemática de los sitios operadores y medición de la represión.",
+      "en": "Systematic disruption of the operator sites followed by repression measurements."
+    },
+    "result": {
+      "es": "Los operadores auxiliares O2 y O3 reforzaron la represión ejercida por LacI junto al operador principal O1.",
+      "en": "The auxiliary operators O2 and O3 enhanced LacI repression together with the main operator O1."
+    },
+    "limitation": {
+      "es": "El efecto de cada operador depende de la configuración experimental y la posibilidad de formar bucles de ADN.",
+      "en": "Each operator's effect depends on the experimental arrangement and the ability to form DNA loops."
+    },
+    "affiliation": [
+      "University of Cologne"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Mutagénesis de operadores",
+        "en": "Operator mutagenesis"
+      }
+    ]
+  },
+  {
+    "id": "lipase-igb83-conference",
+    "title": "Caracterización genética de la lipasa alcalina de Pseudomonas aeruginosa IGB83",
+    "year": 1997,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Rebeca Nájera R.",
+      "Gloria Soberón-Chávez"
+    ],
+    "journal": "Memorias del VII Congreso Nacional de Biotecnología y Bioingeniería y II Simposio Internacional sobre Ingeniería de Bioprocesos",
+    "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/2021-07/010012018.pdf",
+    "topics": [
+      "bioprocess"
+    ],
+    "organisms": [
+      "Pseudomonas aeruginosa"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "conference",
+    "attribution": "historical",
+    "evidence": "D",
+    "objective": {
+      "es": "Caracterizar genéticamente la lipasa alcalina de la cepa IGB83.",
+      "en": "Genetically characterize the alkaline lipase of strain IGB83."
+    },
+    "methods": {
+      "es": "PCR, búsqueda de clones de una genoteca y secuenciación parcial.",
+      "en": "PCR, genomic library screening and partial sequencing."
+    },
+    "result": {
+      "es": "En el resumen BP015 se describieron indicios de dos secuencias de lipasas distintas en IGB83.",
+      "en": "Abstract BP015 reported evidence suggesting two distinct lipase sequences in IGB83."
+    },
+    "limitation": {
+      "es": "La memoria presenta resultados preliminares y deja abierta la caracterización bioquímica de los productos.",
+      "en": "The proceedings report preliminary results and leave the biochemical characterization of the products open."
+    },
+    "affiliation": [
+      "UNAM"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "PCR",
+        "en": "PCR"
+      },
+      {
+        "es": "Hibridación en colonia",
+        "en": "Colony hybridization"
+      }
+    ]
+  },
+  {
+    "id": "lipase-igb83",
+    "title": "Characterization of the lipA gene encoding the major lipase from Pseudomonas aeruginosa strain IGB83",
+    "year": 2001,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Gloria Soberón-Chávez"
+    ],
+    "journal": "Applied Microbiology and Biotechnology",
+    "doi": "10.1007/s002530100724",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11601622/",
+    "topics": [
+      "bioprocess",
+      "regulation"
+    ],
+    "organisms": [
+      "Pseudomonas aeruginosa"
+    ],
+    "genes": [
+      "lipA"
+    ],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "historical",
+    "evidence": "A",
+    "objective": {
+      "es": "Identificar el gen que codifica la lipasa principal de la cepa IGB83.",
+      "en": "Identify the gene encoding the main lipase of strain IGB83."
+    },
+    "methods": {
+      "es": "Caracterización de lipA, construcción de un mutante y comparación de fuentes de carbono.",
+      "en": "Characterization of lipA, construction of a mutant, and comparison of carbon sources."
+    },
+    "result": {
+      "es": "El estudio caracterizó lipA como el gen de la lipasa principal y examinó el efecto de dos fuentes de carbono sobre la expresión de la enzima.",
+      "en": "The study characterized lipA as the gene for the main lipase and examined how two carbon sources affected enzyme expression."
+    },
+    "limitation": {
+      "es": "Se estudió la cepa IGB83. El trabajo establece una base para evaluar la enzima en aplicaciones posteriores.",
+      "en": "The work examined strain IGB83 and established a basis for evaluating the enzyme in later applications."
+    },
+    "affiliation": [
+      "UNAM"
+    ],
+    "support": [
+      {
+        "url": "https://tesiunamdocumentos.dgb.unam.mx/pd2001/295763/295763.pdf",
+        "label": "TESIUNAM"
+      },
+      {
+        "url": "https://www.ibt.unam.mx/documentos/informesinstitucionales/d82c8d1619ad8176d665453cfb2e55f0.pdf",
+        "label": "Instituto de Biotecnología, UNAM"
+      }
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Mutagénesis",
+        "en": "Mutagenesis"
+      }
+    ]
+  },
+  {
+    "id": "global-regulators",
+    "title": "Identifying global regulators in transcriptional regulatory networks in bacteria",
+    "year": 2003,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Julio Collado-Vides"
+    ],
+    "journal": "Current Opinion in Microbiology",
+    "doi": "10.1016/j.mib.2003.09.002",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14572541/",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "review",
+    "attribution": "historical",
+    "evidence": "B",
+    "objective": {
+      "es": "Definir criterios para distinguir reguladores de alcance global y local.",
+      "en": "Define criteria for distinguishing global from local regulators."
+    },
+    "methods": {
+      "es": "Revisión de propiedades de factores de transcripción con ejemplos de redes bacterianas.",
+      "en": "Review of transcription factor properties using examples from bacterial networks."
+    },
+    "result": {
+      "es": "Se propusieron criterios que combinan el número de blancos, los correguladores y la diversidad de condiciones de regulación.",
+      "en": "The proposed criteria combine target count, coregulators, and the diversity of regulatory conditions."
+    },
+    "limitation": {
+      "es": "Los criterios dependen de la cobertura de la red y del conocimiento de las condiciones de regulación.",
+      "en": "The criteria depend on network coverage and on what is known about regulatory conditions."
+    },
+    "affiliation": [
+      "UNAM"
+    ],
+    "verification": "2026-11-08"
+  },
+  {
+    "id": "environment-transcription",
+    "title": "Environmental conditions and transcriptional regulation in Escherichia coli: a physiological integrative approach",
+    "year": 2003,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Heladia Salgado",
+      "Socorro Gama-Castro",
+      "Rosa María Gutiérrez-Ríos",
+      "Verónica Jiménez-Jacinto",
+      "Julio Collado-Vides"
+    ],
+    "journal": "Biotechnology and Bioengineering",
+    "doi": "10.1002/bit.10846",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14708114/",
+    "topics": [
+      "regulation",
+      "databases"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "historical",
+    "evidence": "B",
+    "objective": {
+      "es": "Representar en RegulonDB la expresión génica junto con las condiciones de crecimiento en que se observó.",
+      "en": "Represent gene expression in RegulonDB together with the growth conditions in which it was observed."
+    },
+    "methods": {
+      "es": "Curación de estudios publicados y registro de las condiciones y de sus efectos en la expresión.",
+      "en": "Curation of published studies and recording of conditions and their effects on expression."
+    },
+    "result": {
+      "es": "El esquema conectó las observaciones de expresión con el contexto fisiológico aun cuando faltaban detalles del mecanismo.",
+      "en": "The schema connected expression observations with physiological context even when mechanistic details were unavailable."
+    },
+    "limitation": {
+      "es": "Una condición asociada con expresión puede registrarse antes de que se conozca el mecanismo causal.",
+      "en": "A condition associated with expression can be recorded before its causal mechanism is established."
+    },
+    "affiliation": [
+      "UNAM"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Curación bibliográfica",
+        "en": "Literature curation"
+      }
+    ]
+  },
+  {
+    "id": "regulondb-4",
+    "title": "RegulonDB (version 4.0): transcriptional regulation, operon organization and growth conditions in Escherichia coli K-12",
+    "year": 2004,
+    "authors": [
+      "Heladia Salgado",
+      "Socorro Gama-Castro",
+      "Agustino Martínez-Antonio",
+      "Edgar Díaz-Peredo",
+      "Fabiola Sánchez-Solano",
+      "Martín Peralta-Gil",
+      "Delfino Garcia-Alonso",
+      "Verónica Jiménez-Jacinto",
+      "Alberto Santos-Zavaleta",
+      "César Bonavides-Martínez",
+      "Julio Collado-Vides"
+    ],
+    "journal": "Nucleic Acids Research",
+    "doi": "10.1093/nar/gkh140",
+    "url": "https://academic.oup.com/nar/article/32/suppl_1/D303/2505397",
+    "topics": [
+      "regulation",
+      "databases"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "resource",
+    "attribution": "historical",
+    "evidence": "B",
+    "objective": {
+      "es": "Ampliar una base de datos de regulación transcripcional y organización de operones de E. coli K-12.",
+      "en": "Expand a database of transcriptional regulation and operon organization in E. coli K-12."
+    },
+    "methods": {
+      "es": "Curación de literatura experimental, representación de unidades de transcripción y registro de condiciones de crecimiento.",
+      "en": "Curation of experimental literature, representation of transcription units, and recording of growth conditions."
+    },
+    "result": {
+      "es": "La versión 4.0 incorporó una representación de cambios de expresión vinculados a condiciones de cultivo. La nota editorial atribuye autoría principal compartida a los cinco primeros autores, entre ellos Martínez-Antonio.",
+      "en": "Version 4.0 added a representation of expression changes linked to growth conditions. The publisher credits the first five authors, including Martínez-Antonio, with joint first authorship."
+    },
+    "limitation": {
+      "es": "Describe una versión histórica de la base y la cobertura de la literatura disponible entonces.",
+      "en": "The paper describes a historical database release and its literature coverage at the time."
+    },
+    "date": "2004-01-01",
+    "affiliation": [
+      "UNAM"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Curación bibliográfica",
+        "en": "Literature curation"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14681419/",
+        "label": "PubMed"
+      }
+    ]
+  },
+  {
+    "id": "ecoli-regulatory-modules",
+    "title": "Modular analysis of the transcriptional regulatory network of E. coli",
+    "year": 2005,
+    "authors": [
+      "Osbaldo Resendis-Antonio",
+      "Julio A. Freyre-González",
+      "Ricardo Menchaca-Méndez",
+      "Rosa M. Gutiérrez-Ríos",
+      "Agustino Martínez-Antonio",
+      "Cristhian Avila-Sánchez",
+      "Julio Collado-Vides"
+    ],
+    "journal": "Trends in Genetics",
+    "doi": "10.1016/j.tig.2004.11.010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15680508/",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "historical",
+    "evidence": "C",
+    "objective": {
+      "es": "Examinar si las interacciones conocidas de E. coli forman módulos fisiológicos.",
+      "en": "Examine whether known E. coli interactions form physiological modules."
+    },
+    "methods": {
+      "es": "Agrupamiento a partir de caminos cortos en la red y comparación de motivos dentro y entre módulos.",
+      "en": "Clustering based on shortest paths in the network and comparison of motifs within and between modules."
+    },
+    "result": {
+      "es": "El análisis identificó ocho módulos. Los motivos de alimentación hacia delante tendían a aparecer dentro de los módulos, y los de abanico doble entre ellos.",
+      "en": "The analysis identified eight modules. Feed-forward motifs tended to occur within modules and bi-fan motifs between them."
+    },
+    "limitation": {
+      "es": "La partición depende de las interacciones disponibles y del método de agrupamiento.",
+      "en": "The partition depends on the available interactions and the clustering method."
+    },
+    "affiliation": [
+      "UNAM"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Análisis topológico",
+        "en": "Topological analysis"
+      }
+    ]
+  },
+  {
+    "id": "regulondb-5",
+    "title": "RegulonDB (version 5.0): Escherichia coli K-12 transcriptional regulatory network, operon organization, and growth conditions",
+    "year": 2006,
+    "authors": [
+      "Heladia Salgado",
+      "Socorro Gama-Castro",
+      "Martín Peralta-Gil",
+      "Edgar Díaz-Peredo",
+      "Fabiola Sánchez-Solano",
+      "Alberto Santos-Zavaleta",
+      "Irma Martínez-Flores",
+      "Verónica Jiménez-Jacinto",
+      "César Bonavides-Martínez",
+      "Juan Segura-Salazar",
+      "Agustino Martínez-Antonio",
+      "Julio Collado-Vides"
+    ],
+    "journal": "Nucleic Acids Research",
+    "doi": "10.1093/nar/gkj156",
+    "url": "https://academic.oup.com/nar/article/34/suppl_1/D394/1134035",
+    "topics": [
+      "regulation",
+      "databases"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "resource",
+    "attribution": "historical",
+    "evidence": "B",
+    "objective": {
+      "es": "Actualizar los datos y la navegación de RegulonDB para estudiar la red transcripcional de E. coli K-12.",
+      "en": "Update RegulonDB data and navigation for studying the E. coli K-12 transcriptional network."
+    },
+    "methods": {
+      "es": "Curación de interacciones y diseño de representaciones computables y vistas gráficas.",
+      "en": "Curation of interactions and design of computable representations and graphical views."
+    },
+    "result": {
+      "es": "La versión 5.0 reunió datos de operones, regulación y condiciones de crecimiento con herramientas de visualización. El artículo documenta la coautoría de Martínez-Antonio.",
+      "en": "Version 5.0 brought together operon, regulation and growth-condition data with visualization tools. The article documents Martínez-Antonio's coauthorship."
+    },
+    "limitation": {
+      "es": "La versión corresponde al estado de curación de 2006. El orden de autoría y la nota editorial corresponden a esa publicación.",
+      "en": "The release reflects the state of curation in 2006. Author order and the publisher's note apply to this publication."
+    },
+    "date": "2006-01-01",
+    "affiliation": [
+      "UNAM"
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16381895/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Curación bibliográfica",
+        "en": "Literature curation"
+      }
+    ]
+  },
+  {
+    "id": "ecoli-network-organization",
+    "title": "Functional organisation of Escherichia coli transcriptional regulatory network",
+    "year": 2008,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Sarath Chandra Janga",
+      "Denis Thieffry"
+    ],
+    "journal": "Journal of Molecular Biology",
+    "doi": "10.1016/j.jmb.2008.05.054",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18599074/",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "historical",
+    "evidence": "C",
+    "objective": {
+      "es": "Relacionar la arquitectura de la red transcripcional con funciones fisiológicas de E. coli.",
+      "en": "Relate transcriptional network architecture to physiological functions in E. coli."
+    },
+    "methods": {
+      "es": "Análisis estructural de interacciones y comparación de la conservación de reguladores.",
+      "en": "Structural analysis of interactions and comparison of regulator conservation."
+    },
+    "result": {
+      "es": "Las redes de uso de fuentes de carbono mostraron rutas más cortas y más autorregulación negativa. En las redes de biopelícula y quimiotaxis fueron más frecuentes las cascadas largas y los bucles positivos.",
+      "en": "Carbon-source subnetworks showed shorter paths and more negative autoregulation. Long cascades and positive loops were more frequent in biofilm and chemotaxis subnetworks."
+    },
+    "limitation": {
+      "es": "La arquitectura observada permite proponer mecanismos. La dinámica requiere pruebas específicas.",
+      "en": "Observed architecture can suggest mechanisms. Dynamics require dedicated tests."
+    },
+    "date": "2008-05-29",
+    "numbers": {
+      "es": "El análisis incluyó 115 factores de transcripción y 7 factores sigma.",
+      "en": "The analysis included 115 transcription factors and 7 sigma factors."
+    },
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Análisis topológico",
+        "en": "Topological analysis"
+      }
+    ]
+  },
+  {
+    "id": "bacterial-chromosome-organization",
+    "title": "Transcriptional regulation shapes the organization of genes on bacterial chromosomes",
+    "year": 2009,
+    "authors": [
+      "Sarath Chandra Janga",
+      "Heladia Salgado",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Nucleic Acids Research",
+    "doi": "10.1093/nar/gkp231",
+    "url": "https://academic.oup.com/nar/article/37/11/3680/1088231",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "C",
+    "objective": {
+      "es": "Evaluar si la posición de los genes en el cromosoma refleja la arquitectura de la regulación transcripcional.",
+      "en": "Test whether chromosomal gene positions reflect transcriptional regulatory architecture."
+    },
+    "methods": {
+      "es": "Análisis computacional de posiciones cromosómicas, alcance de los reguladores y distribución de genes blanco.",
+      "en": "Computational analysis of chromosomal positions, regulator reach and target-gene distribution."
+    },
+    "result": {
+      "es": "El estudio encontró asociaciones entre la posición de factores de transcripción y blancos y el alcance de su regulación.",
+      "en": "The study found associations between the positions of transcription factors and their targets and the scope of their regulation."
+    },
+    "limitation": {
+      "es": "El análisis de posiciones identifica asociaciones y motiva hipótesis sobre la cinética de regulación.",
+      "en": "Positional analysis identifies associations and motivates hypotheses about regulatory kinetics."
+    },
+    "date": "2009-04-16",
+    "affiliation": [
+      "MRC Laboratory of Molecular Biology",
+      "UNAM",
+      "Cinvestav Irapuato"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Análisis de posiciones cromosómicas",
+        "en": "Chromosomal position analysis"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19372274/",
+        "label": "PubMed"
+      }
+    ]
+  },
+  {
+    "id": "bacterial-nucleoid",
+    "title": "Structural and functional map of a bacterial nucleoid",
+    "year": 2009,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Alejandra Medina-Rivera",
+      "Julio Collado-Vides"
+    ],
+    "journal": "Genome Biology",
+    "doi": "10.1186/gb-2009-10-12-247",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19995411/",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "review",
+    "attribution": "collaborative",
+    "evidence": "B",
+    "objective": {
+      "es": "Examinar la relación entre compactación del nucleoide y regulación de la transcripción.",
+      "en": "Examine how nucleoid compaction and transcriptional regulation are related."
+    },
+    "methods": {
+      "es": "Minirrevisión de estudios de ocupación cromosómica por proteínas, con énfasis en E. coli.",
+      "en": "Mini-review of studies on chromosomal protein occupancy, focusing on E. coli."
+    },
+    "result": {
+      "es": "La revisión explica cómo el mapeo de la ocupación del ADN ayuda a estudiar regiones asociadas con compactación y programas de expresión.",
+      "en": "The review explains how mapping DNA occupancy helps study regions associated with compaction and expression programs."
+    },
+    "limitation": {
+      "es": "La revisión interpreta estudios de terceros y la ocupación por sí sola no establece el efecto de una proteína sobre un promotor.",
+      "en": "The review interprets studies by other groups, and occupancy alone does not establish a protein's effect on a promoter."
+    },
+    "date": "2009-12-11",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "UNAM"
+    ],
+    "verification": "2026-11-08"
+  },
+  {
+    "id": "pseudomonas-bean-extract",
+    "title": "Transcriptional profile of Pseudomonas syringae pv. phaseolicola NPS3121 in response to tissue extracts from a susceptible Phaseolus vulgaris L. cultivar",
+    "year": 2009,
+    "authors": [
+      "Alejandro Hernández-Morales",
+      "Susana De la Torre-Zavala",
+      "Enrique Ibarra-Laclette",
+      "José Luis Hernández-Flores",
+      "Alba Estela Jofre-Garfias",
+      "Agustino Martínez-Antonio",
+      "Ariel Álvarez-Morales"
+    ],
+    "journal": "BMC Microbiology",
+    "doi": "10.1186/1471-2180-9-257",
+    "url": "https://link.springer.com/article/10.1186/1471-2180-9-257",
+    "topics": [
+      "regulation",
+      "plants"
+    ],
+    "organisms": [
+      "Pseudomonas syringae",
+      "Phaseolus vulgaris"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Medir la respuesta transcripcional bacteriana a extractos de un cultivar susceptible de frijol.",
+      "en": "Measure the bacterial transcriptional response to extracts from a susceptible bean cultivar."
+    },
+    "methods": {
+      "es": "Microarreglo de ADN para comparar la expresión de la cepa NPS3121 después de exponerla a muestras vegetales.",
+      "en": "DNA microarray to compare expression in strain NPS3121 after exposure to plant samples."
+    },
+    "result": {
+      "es": "El estudio reportó 224 genes con expresión diferencial, en su mayoría asociados con la exposición al extracto de hoja y al fluido apoplástico.",
+      "en": "The study reported 224 differentially expressed genes, most associated with exposure to leaf extract and apoplastic fluid."
+    },
+    "limitation": {
+      "es": "Las exposiciones a extractos reproducen señales del hospedero en condiciones controladas. La respuesta durante una infección completa requiere otro diseño.",
+      "en": "Extract exposures reproduce host cues under controlled conditions. Studying the response during a complete infection requires a separate design."
+    },
+    "date": "2009-12-14",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "LANGEBIO"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Microarreglo de ADN",
+        "en": "DNA microarray"
+      }
+    ],
+    "contributions": {
+      "es": "La declaración de contribuciones atribuye a Martínez-Antonio la interpretación de datos y la revisión del manuscrito.",
+      "en": "The contribution statement credits Martínez-Antonio with interpreting data and revising the manuscript."
+    }
+  },
+  {
+    "id": "pseudomonas-regulatory-network",
+    "title": "The Regulatory Network of Pseudomonas aeruginosa",
+    "year": 2011,
+    "authors": [
+      "Edgardo Galán-Vásquez",
+      "Beatriz Luna",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Microbial Informatics and Experimentation",
+    "doi": "10.1186/2042-5783-1-3",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3348663/",
+    "topics": [
+      "regulation",
+      "systems",
+      "databases"
+    ],
+    "organisms": [
+      "Pseudomonas aeruginosa"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "group",
+    "evidence": "C",
+    "objective": {
+      "es": "Reconstruir y analizar una red de regulación transcripcional de P. aeruginosa a partir de evidencia publicada.",
+      "en": "Reconstruct and analyze a P. aeruginosa transcriptional regulatory network using published evidence."
+    },
+    "methods": {
+      "es": "Curación de relaciones con respaldo experimental y análisis topológico de jerarquías, reguladores y motivos de red.",
+      "en": "Curation of experimentally supported relationships and topological analysis of hierarchies, regulators and network motifs."
+    },
+    "result": {
+      "es": "La red recopilada permitió estudiar conexiones entre la formación de biopelículas, los regulones de detección de cuórum y los factores de virulencia.",
+      "en": "The curated network made it possible to study connections between biofilm formation, quorum-sensing regulons and virulence factors."
+    },
+    "limitation": {
+      "es": "La cobertura fue parcial y estuvo sesgada hacia procesos de patogénesis y virulencia.",
+      "en": "Coverage was partial and biased toward pathogenesis and virulence processes."
+    },
+    "date": "2011-06-14",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "numbers": {
+      "es": "La versión analizada incluyó 690 genes y 1.020 interacciones regulatorias.",
+      "en": "The analyzed network included 690 genes and 1,020 regulatory interactions."
+    },
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22587778/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Curación bibliográfica",
+        "en": "Literature curation"
+      },
+      {
+        "es": "Análisis topológico",
+        "en": "Topological analysis"
+      }
+    ]
+  },
+  {
+    "id": "growth-phase-circuit",
+    "title": "Regulatory design governing progression of population growth phases in bacteria",
+    "year": 2012,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Jason G. Lomnitz",
+      "Santiago Sandoval",
+      "Maximino Aldana",
+      "Michael A. Savageau"
+    ],
+    "journal": "PLOS ONE",
+    "doi": "10.1371/journal.pone.0030654",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030654",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [
+      "fis",
+      "hns",
+      "ihfA",
+      "ihfB",
+      "rpoS",
+      "gadX"
+    ],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "C",
+    "objective": {
+      "es": "Proponer un circuito transcripcional capaz de explicar la secuencia de fases de crecimiento de E. coli.",
+      "en": "Propose a transcriptional circuit that could explain the sequence of E. coli growth phases."
+    },
+    "methods": {
+      "es": "Integración de datos de expresión y regulación con análisis de un modelo dinámico.",
+      "en": "Integration of expression and regulation data with dynamical modeling."
+    },
+    "result": {
+      "es": "El modelo propuso un núcleo de cinco reguladores, Fis, H-NS, IHF, RpoS y GadX, vinculado a las transiciones del cultivo.",
+      "en": "The model proposed a core of five regulators, Fis, H-NS, IHF, RpoS and GadX, linked to transitions in culture."
+    },
+    "limitation": {
+      "es": "El circuito resulta de integrar datos y modelar su dinámica. Su papel causal completo en cada transición requiere validación adicional.",
+      "en": "The circuit follows from data integration and dynamical modeling. Its full causal role at each transition requires further validation."
+    },
+    "date": "2012-02-21",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "UC Davis",
+      "UNAM"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Modelado dinámico",
+        "en": "Dynamical modeling"
+      }
+    ],
+    "contributions": {
+      "es": "La declaración de contribuciones atribuye a Martínez-Antonio el diseño y la realización junto con Lomnitz y Savageau.",
+      "en": "The contribution statement credits Martínez-Antonio with design and execution alongside Lomnitz and Savageau."
+    }
+  },
+  {
+    "id": "minimal-dna-replication",
+    "title": "Proposal for a Minimal DNA Auto-Replicative System",
+    "year": 2013,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Laura Espindola-Serna",
+      "Cesar Quiñones-Valles"
+    ],
+    "journal": "The Mechanisms of DNA Replication",
+    "doi": "10.5772/51986",
+    "url": "https://www.intechopen.com/chapters/43152",
+    "topics": [
+      "synthetic",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [
+      "dnaA",
+      "dnaG",
+      "ssb",
+      "tus"
+    ],
+    "metabolites": [],
+    "type": "chapter",
+    "attribution": "group",
+    "evidence": "C",
+    "objective": {
+      "es": "Diseñar un sistema genético mínimo que pueda servir de punto de partida para estudiar la autorreplicación del ADN in vitro.",
+      "en": "Design a minimal genetic system as a starting point for studying DNA self-replication in vitro."
+    },
+    "methods": {
+      "es": "Comparación de componentes de replicación de E. coli con los conservados en bacterias de genoma reducido.",
+      "en": "Comparison of E. coli replication components with those conserved in bacteria with reduced genomes."
+    },
+    "result": {
+      "es": "El capítulo propone un minicromosoma con regiones de inicio y terminación y genes de la maquinaria replicativa.",
+      "en": "The chapter proposes a minichromosome with initiation and termination regions and genes encoding replication machinery."
+    },
+    "limitation": {
+      "es": "La propuesta requiere construcción y validación funcional in vitro.",
+      "en": "The proposal requires construction and functional validation in vitro."
+    },
+    "date": "2013-02-20",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Genómica comparada",
+        "en": "Comparative genomics"
+      }
+    ]
+  },
+  {
+    "id": "dominant-vertices-bacterial-networks",
+    "title": "Structural comparison of biological networks based on dominant vertices",
+    "year": 2013,
+    "authors": [
+      "Beatriz Luna",
+      "Edgardo Galán-Vásquez",
+      "Edgardo Ugalde",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Molecular BioSystems",
+    "doi": "10.1039/c3mb70077a",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2013/mb/c3mb70077a",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Bacillus subtilis",
+      "Pseudomonas aeruginosa",
+      "Mycobacterium tuberculosis",
+      "Staphylococcus aureus",
+      "Corynebacterium glutamicum"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "C",
+    "objective": {
+      "es": "Comparar redes de distinto tamaño atendiendo a sus propiedades topológicas y a su posible comportamiento dinámico.",
+      "en": "Compare networks of different sizes in terms of topology and potential dynamical behavior."
+    },
+    "methods": {
+      "es": "Definición de una pseudodistancia basada en vértices dominantes y aplicación a redes regulatorias de seis bacterias y a redes aleatorias.",
+      "en": "Definition of a pseudodistance based on dominant vertices and application to six bacterial regulatory networks and random networks."
+    },
+    "result": {
+      "es": "El trabajo presenta una medida computacional para comparar redes con cobertura y tamaño distintos.",
+      "en": "The study provides a computational measure for comparing networks that differ in coverage and size."
+    },
+    "limitation": {
+      "es": "B. subtilis fue uno de los conjuntos de datos de la comparación. La publicación analiza redes disponibles y sus propiedades matemáticas.",
+      "en": "B. subtilis supplied one of the datasets for comparison. The study analyzes available networks and their mathematical properties."
+    },
+    "date": "2013-05-09",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Universidad del Papaloapan",
+      "UASLP"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Análisis topológico",
+        "en": "Topological analysis"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23686011/",
+        "label": "PubMed"
+      }
+    ]
+  },
+  {
+    "id": "engineered-starch-use",
+    "title": "Engineering Escherichia coli K12 MG1655 to use starch",
+    "year": 2014,
+    "authors": [
+      "Luis Manuel Rosales-Colunga",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Microbial Cell Factories",
+    "doi": "10.1186/1475-2859-13-74",
+    "url": "https://microbialcellfactories.biomedcentral.com/articles/10.1186/1475-2859-13-74",
+    "topics": [
+      "synthetic",
+      "metabolism",
+      "bioprocess"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [
+      "amyA"
+    ],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Construir una cepa de E. coli que pueda usar almidón como fuente de carbono.",
+      "en": "Engineer an E. coli strain that can use starch as a carbon source."
+    },
+    "methods": {
+      "es": "Expresión y secreción de la α-amilasa endógena AmyA en un fondo adaptado, con evaluación en biorreactor.",
+      "en": "Expression and secretion of endogenous α-amylase AmyA in an adapted background, followed by bioreactor evaluation."
+    },
+    "result": {
+      "es": "La cepa diseñada utilizó almidón y produjo más biomasa bajo condiciones controladas del biorreactor.",
+      "en": "The engineered strain used starch and produced more biomass under controlled bioreactor conditions."
+    },
+    "limitation": {
+      "es": "Los resultados corresponden al sistema ensayado. El uso a escala industrial requiere evaluar otros sustratos y condiciones.",
+      "en": "The results apply to the system tested. Industrial use requires evaluation of other feedstocks and operating conditions."
+    },
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "UASLP"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Ingeniería de cepas",
+        "en": "Strain engineering"
+      },
+      {
+        "es": "Cultivo en biorreactor",
+        "en": "Bioreactor cultivation"
+      }
+    ]
+  },
+  {
+    "id": "avocado-seed-culture-medium",
+    "title": "Development of bacterial culture medium from avocado seed waste",
+    "year": 2016,
+    "authors": [
+      "Olivia Tzintzun-Camacho",
+      "Lino Sánchez-Segura",
+      "Alexis Zarahy Minchaca-Acosta",
+      "Luis Manuel Rosales-Colunga",
+      "Ana Lilia Hernández-Orihuela",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Revista Mexicana de Ingeniería Química",
+    "doi": "10.24275/rmiq/alim1046",
+    "url": "https://www.redalyc.org/pdf/620/62048168014.pdf",
+    "topics": [
+      "bioprocess",
+      "metabolism"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Persea americana"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "group",
+    "evidence": "A",
+    "objective": {
+      "es": "Evaluar la semilla de aguacate como sustrato para un medio de cultivo bacteriano.",
+      "en": "Evaluate avocado seed as a feedstock for bacterial culture medium."
+    },
+    "methods": {
+      "es": "Hidrólisis del residuo, suplementación con sales M9 y seguimiento del crecimiento en un reactor de tanque agitado.",
+      "en": "Hydrolysis of seed waste, supplementation with M9 salts, and growth monitoring in a stirred-tank reactor."
+    },
+    "result": {
+      "es": "El medio de hidrolizado con sales sostuvo el crecimiento de E. coli K-12 MG1655. La biomasa y la tasa de crecimiento variaron con las condiciones ensayadas.",
+      "en": "The hydrolysate medium supplemented with salts supported growth of E. coli K-12 MG1655. Biomass and growth rate varied with the conditions tested."
+    },
+    "limitation": {
+      "es": "El estudio midió desempeño de cultivo en condiciones definidas. Para cuantificar un beneficio ambiental neto se necesita un análisis de ciclo de vida.",
+      "en": "The study measured culture performance under defined conditions. Quantifying a net environmental benefit requires a life-cycle analysis."
+    },
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "numbers": {
+      "es": "Con 13,33 y 20 g/L de azúcares reductores, se obtuvieron 1,75 y 2,22 g/L de biomasa seca, respectivamente.",
+      "en": "At 13.33 and 20 g/L reducing sugars, dry biomass reached 1.75 and 2.22 g/L, respectively."
+    },
+    "support": [
+      {
+        "url": "https://doi.org/10.7287/peerj.preprints.2104v1",
+        "label": "PeerJ Preprints"
+      }
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Hidrólisis",
+        "en": "Hydrolysis"
+      },
+      {
+        "es": "Cultivo en biorreactor",
+        "en": "Bioreactor cultivation"
+      }
+    ]
+  },
+  {
+    "id": "regulator-conservation",
+    "title": "Transcription Factors Exhibit Differential Conservation in Bacteria with Reduced Genomes",
+    "year": 2016,
+    "authors": [
+      "Edgardo Galán-Vásquez",
+      "Ismael Sánchez-Osorio",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "PLOS ONE",
+    "doi": "10.1371/journal.pone.0146901",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146901",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "group",
+    "evidence": "C",
+    "objective": {
+      "es": "Investigar cómo la reducción genómica se relaciona con la pérdida de distintos tipos de factores de transcripción.",
+      "en": "Investigate how genome reduction relates to the loss of different types of transcription factors."
+    },
+    "methods": {
+      "es": "Comparación genómica con la red de E. coli como referencia y clasificación de reguladores por su tipo de acción.",
+      "en": "Comparative genomics using the E. coli network as a reference and classification of regulators by type of action."
+    },
+    "result": {
+      "es": "En los genomas más reducidos se observó mayor conservación relativa de reguladores capaces de activar y reprimir. Los autores propusieron un modelo conceptual de pérdida gradual.",
+      "en": "In the most reduced genomes, regulators capable of both activation and repression showed greater relative conservation. The authors proposed a conceptual model of gradual loss."
+    },
+    "limitation": {
+      "es": "El análisis de conservación compara genomas y genera hipótesis evolutivas. La actividad en cada organismo requiere estudios funcionales.",
+      "en": "Conservation analysis compares genomes and generates evolutionary hypotheses. Activity in each organism requires functional studies."
+    },
+    "date": "2016-01-14",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "numbers": {
+      "es": "El estudio comparó 113 genomas más pequeños, incluidos 19 de simbiontes.",
+      "en": "The study compared 113 smaller genomes, including 19 from symbionts."
+    },
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26766575/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Genómica comparada",
+        "en": "Comparative genomics"
+      }
+    ]
+  },
+  {
+    "id": "avocado-seed-medium-patent",
+    "title": "Culture medium derived from avocado seed material",
+    "year": 2016,
+    "authors": [
+      "Agustino Martínez-Antonio",
+      "Alexis Zarahy Minchaca Acosta",
+      "Ana Lilia Hernández Orihuela",
+      "Luis Manuel Rosales Colunga",
+      "Juan Manuel Estévez Palmas",
+      "Sebastian Espinel Ríos"
+    ],
+    "journal": "WIPO, solicitud internacional WO2016079568A1",
+    "url": "https://patentimages.storage.googleapis.com/18/34/28/89f93dec991c8e/WO2016079568A1.pdf",
+    "topics": [
+      "bioprocess",
+      "plants"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Persea americana"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "patent",
+    "attribution": "group",
+    "evidence": "D",
+    "objective": {
+      "es": "Documentar una solicitud internacional sobre formulación de medios de cultivo a partir de semilla de aguacate.",
+      "en": "Document an international application covering culture media formulated from avocado seed."
+    },
+    "methods": {
+      "es": "La solicitud describe preparación de fracciones derivadas de semilla y ejemplos de uso en distintos cultivos.",
+      "en": "The application describes preparation of seed-derived fractions and example uses in different cultures."
+    },
+    "result": {
+      "es": "WO2016079568A1 identifica a Cinvestav como solicitante y a Martínez-Antonio entre los inventores.",
+      "en": "WO2016079568A1 identifies Cinvestav as the applicant and Martínez-Antonio among the inventors."
+    },
+    "limitation": {
+      "es": "Es una solicitud de patente publicada. Las reivindicaciones documentan su alcance propuesto y los ejemplos son evidencia preliminar de los solicitantes.",
+      "en": "This is a published patent application. Its claims document the proposed scope and its examples are preliminary evidence provided by the applicants."
+    },
+    "date": "2016-05-26",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "support": [
+      {
+        "url": "https://patents.google.com/patent/WO2016079568A1/en",
+        "label": "WO2016079568A1"
+      }
+    ],
+    "verification": "2026-11-08"
+  },
+  {
+    "id": "caulobacter-boolean-division",
+    "title": "Modeling Asymmetric Cell Division in Caulobacter crescentus Using a Boolean Logic Approach",
+    "year": 2017,
+    "authors": [
+      "Ismael Sánchez-Osorio",
+      "Carlos A. Hernández-Martínez",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Asymmetric Cell Division in Development, Differentiation and Cancer",
+    "doi": "10.1007/978-3-319-53150-2_1",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28409298/",
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Caulobacter crescentus"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "chapter",
+    "attribution": "group",
+    "evidence": "C",
+    "objective": {
+      "es": "Explorar cómo una red regulatoria puede generar dos tipos de células hijas en C. crescentus.",
+      "en": "Explore how a regulatory network can give rise to two daughter-cell types in C. crescentus."
+    },
+    "methods": {
+      "es": "Representación de la red de regulación y señalización mediante reglas lógicas y simulación de estados.",
+      "en": "Representation of the regulatory and signaling network using logic rules and state simulations."
+    },
+    "result": {
+      "es": "El capítulo ilustra cómo modelos booleanos sencillos permiten estudiar la dinámica asociada con la división asimétrica.",
+      "en": "The chapter illustrates how simple Boolean models can be used to study dynamics associated with asymmetric division."
+    },
+    "limitation": {
+      "es": "Los estados lógicos representan actividad relativa. La cuantificación de concentraciones y tiempos requiere otro modelo o mediciones.",
+      "en": "Logic states represent relative activity. Quantifying concentrations and timing requires a different model or measurements."
+    },
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "support": [
+      {
+        "url": "https://link.springer.com/chapter/10.1007/978-3-319-53150-2_1",
+        "label": "Springer"
+      }
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Modelado booleano",
+        "en": "Boolean modeling"
+      }
+    ]
+  },
+  {
+    "id": "pola-arsenite-bioreporter",
+    "title": "Novel arsenic biosensor “POLA” obtained by a genetically modified E. coli bioreporter cell",
+    "year": 2018,
+    "authors": [
+      "L. A. Pola-López",
+      "J. L. Camas-Anzueto",
+      "Agustino Martínez-Antonio",
+      "M. C. Luján-Hidalgo",
+      "G. Anzueto-Sánchez",
+      "V. M. Ruíz-Valdiviezo",
+      "R. Grajales-Coutiño",
+      "J. H. Castañón González"
+    ],
+    "journal": "Sensors and Actuators B: Chemical",
+    "doi": "10.1016/j.snb.2017.08.006",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0925400517314284",
+    "topics": [
+      "synthetic",
+      "diagnosis"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Desarrollar un biosensor celular fluorescente para detectar arsenito.",
+      "en": "Develop a fluorescent whole-cell biosensor for detecting arsenite."
+    },
+    "methods": {
+      "es": "Construcción de un vector con un módulo sensor, amplificación de señal y GFP en E. coli K-12. Se ensayó un acoplamiento preliminar con fibra óptica.",
+      "en": "Construction of a vector with a sensing module, signal amplification and GFP in E. coli K-12. Preliminary optical-fiber coupling was tested."
+    },
+    "result": {
+      "es": "La señal fluorescente aumentó con la concentración de arsenito y con el tiempo en el intervalo medido.",
+      "en": "Fluorescence increased with arsenite concentration and time over the measured range."
+    },
+    "limitation": {
+      "es": "El intervalo corresponde a las condiciones del ensayo. El acoplamiento óptico fue una prueba preliminar.",
+      "en": "The range applies to the assay conditions. Optical coupling was a preliminary test."
+    },
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "numbers": {
+      "es": "Intervalo de arsenito reportado en el ensayo: 5–140 µg/L.",
+      "en": "Reported arsenite range in the assay: 5–140 µg/L."
+    },
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Biosensor celular",
+        "en": "Whole-cell biosensor"
+      },
+      {
+        "es": "Fluorescencia",
+        "en": "Fluorescence"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://hero.epa.gov/reference/4670604/",
+        "label": "EPA HERO"
+      }
+    ]
+  },
+  {
+    "id": "stz-tobacco-organogenesis",
+    "title": "E. coli cultures expressing a synthetic sequence of ptz gene (stz) promoted in vitro direct organogenesis in Nicotiana tabacum L.",
+    "year": 2019,
+    "authors": [
+      "Alberto Camas-Reyes",
+      "Ricardo Laguna-Ramírez",
+      "Alba E. Jofre-Garfias",
+      "Faviola Cardoso-Martínez",
+      "Ana Lilia Hernández-Orihuela",
+      "Jorge Molina-Torres",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Plant Cell, Tissue and Organ Culture",
+    "doi": "10.1007/s11240-018-01554-7",
+    "url": "https://link.springer.com/article/10.1007/s11240-018-01554-7",
+    "topics": [
+      "plants",
+      "synthetic"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Nicotiana tabacum"
+    ],
+    "genes": [
+      "stz",
+      "ptz"
+    ],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "group",
+    "evidence": "A",
+    "objective": {
+      "es": "Evaluar si el medio de una cepa de E. coli que expresa una secuencia sintética del gen ptz induce organogénesis en tabaco.",
+      "en": "Test whether medium from E. coli expressing a synthetic sequence of ptz induces organogenesis in tobacco."
+    },
+    "methods": {
+      "es": "Expresión de stz en E. coli TOP10, control con vector vacío y bioensayos de medio libre de células y sus fracciones en explantes foliares.",
+      "en": "Expression of stz in E. coli TOP10, an empty-vector control, and bioassays of cell-free medium and its fractions in leaf explants."
+    },
+    "result": {
+      "es": "El medio libre de células y sus fracciones metanólicas indujeron la formación de brotes y raíces en los bioensayos de tabaco.",
+      "en": "Cell-free medium and its methanolic fractions induced shoot and root formation in the tobacco bioassays."
+    },
+    "limitation": {
+      "es": "La respuesta corresponde a explantes de tabaco en cultivo in vitro. P. syringae pv. savastanoi se presenta como origen del gen de referencia.",
+      "en": "The response applies to tobacco explants in vitro. P. syringae pv. savastanoi is the source of the reference gene."
+    },
+    "date": "2019-01-25",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "verification": "2026-11-08",
+    "techniques": [
+      {
+        "es": "Transformación bacteriana",
+        "en": "Bacterial transformation"
+      },
+      {
+        "es": "Cultivo de tejidos",
+        "en": "Tissue culture"
+      }
+    ]
+  },
+  {
+    "id": "avocado-d-lactate",
+    "title": "Production of d-Lactate from Avocado Seed Hydrolysates by Metabolically Engineered Escherichia coli JU15",
+    "year": 2019,
+    "authors": [
+      "Dulce María Palmerín-Carreño",
+      "Ana Lilia Hernández-Orihuela",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Fermentation",
+    "doi": "10.3390/fermentation5010026",
+    "url": "https://www.mdpi.com/2311-5637/5/1/26",
+    "topics": [
+      "bioprocess",
+      "metabolism"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Persea americana"
+    ],
+    "genes": [
+      "pflB",
+      "adhE",
+      "frdA",
+      "xylF",
+      "xylG",
+      "xylH",
+      "gatC"
+    ],
+    "metabolites": [
+      "D-lactato"
+    ],
+    "type": "article",
+    "attribution": "group",
+    "evidence": "A",
+    "objective": {
+      "es": "Medir la producción de D-lactato por E. coli JU15 a partir del hidrolizado de semilla de aguacate.",
+      "en": "Measure D-lactate production by E. coli JU15 using avocado seed hydrolysate."
+    },
+    "methods": {
+      "es": "Fermentaciones por lotes y lote alimentado en biorreactor, con seguimiento de azúcares y D-lactato.",
+      "en": "Batch and fed-batch fermentations in a bioreactor with monitoring of sugars and D-lactate."
+    },
+    "result": {
+      "es": "E. coli JU15 convirtió azúcares del hidrolizado en D-lactato en las condiciones de fermentación evaluadas.",
+      "en": "E. coli JU15 converted sugars in the hydrolysate into D-lactate under the tested fermentation conditions."
+    },
+    "limitation": {
+      "es": "Las métricas dependen de la cepa, el medio y el modo de operación. El balance ambiental completo quedó fuera del alcance del estudio. La cifra de productividad del resumen difiere de la Tabla 2.",
+      "en": "Metrics depend on strain, medium and operating mode. A full environmental balance was outside the study scope. The productivity value in the abstract differs from Table 2."
+    },
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "verification": "2026-11-08",
+    "date": "2019-03-14",
+    "numbers": {
+      "es": "Lote con 120 g/L iniciales de azúcares reductores: concentración máxima de D-lactato, 37,8 ± 0,3 g/L. La Tabla 2 reporta 0,31 ± 0,08 g/L/h de productividad volumétrica y 0,31 ± 0,08 g/g de rendimiento sobre azúcares reductores.",
+      "en": "Batch with 120 g/L initial reducing sugars: peak D-lactate concentration, 37.8 ± 0.3 g/L. Table 2 reports 0.31 ± 0.08 g/L/h volumetric productivity and 0.31 ± 0.08 g/g yield on reducing sugars."
+    },
+    "techniques": [
+      {
+        "es": "Fermentación",
+        "en": "Fermentation"
+      },
+      {
+        "es": "HPLC",
+        "en": "HPLC"
+      }
+    ],
+    "contributions": {
+      "es": "La declaración de contribuciones acredita a Martínez-Antonio con la conceptualización y revisión del manuscrito.",
+      "en": "The contribution statement credits Martínez-Antonio with conceptualization and review of the manuscript."
+    },
+    "support": [
+      {
+        "url": "https://mdpi-res.com/d_attachment/fermentation/fermentation-05-00026/article_deploy/fermentation-05-00026.pdf",
+        "label": "MDPI PDF"
+      }
+    ]
+  }
+]

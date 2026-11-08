@@ -1,0 +1,1249 @@
+[
+  {
+    "id": "circuit-host-2020",
+    "title": "Quantitative modeling of the interplay between synthetic gene circuits and host physiology: experiments, results, and prospects",
+    "year": 2020,
+    "authors": [
+      "Ismael Sánchez-Osorio",
+      "Carlos Andrés Hernández-Martínez",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Current Opinion in Microbiology",
+    "doi": "10.1016/j.mib.2020.02.008",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32220744/",
+    "date": "2020-03-25",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "topics": [
+      "synthetic",
+      "systems"
+    ],
+    "organisms": [],
+    "genes": [],
+    "metabolites": [],
+    "type": "review",
+    "attribution": "group",
+    "evidence": "B",
+    "objective": {
+      "es": "Explicar cómo el funcionamiento de los circuitos sintéticos depende de la fisiología bacteriana.",
+      "en": "Explain how synthetic circuit function depends on bacterial physiology."
+    },
+    "methods": {
+      "es": "Revisión de modelos cuantitativos de interacciones entre circuitos y entre circuitos y hospedero.",
+      "en": "Review of quantitative models of circuit–circuit and circuit–host interactions."
+    },
+    "result": {
+      "es": "La revisión describe cómo los modelos ayudan a interpretar observaciones y a diseñar circuitos para distintas condiciones de crecimiento.",
+      "en": "The review describes how models help interpret observations and design circuits for different growth conditions."
+    },
+    "limitation": {
+      "es": "Las predicciones dependen de cada modelo, circuito y hospedero. La publicación sintetiza estudios previos.",
+      "en": "Predictions depend on each model, circuit, and host. The publication synthesizes prior studies."
+    },
+    "techniques": [
+      {
+        "es": "Modelado cuantitativo",
+        "en": "Quantitative modeling"
+      }
+    ],
+    "verification": "2026-11-08"
+  },
+  {
+    "id": "tryptophan-model-2022",
+    "title": "A Molecular Dynamic Model of Tryptophan Overproduction in Escherichia coli",
+    "year": 2022,
+    "authors": [
+      "Diego Andrés Castro-López",
+      "Luis E. González de la Vara",
+      "Moises Santillán",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Fermentation",
+    "doi": "10.3390/fermentation8100560",
+    "url": "https://www.mdpi.com/2311-5637/8/10/560",
+    "date": "2022-10-20",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Cinvestav Monterrey"
+    ],
+    "topics": [
+      "metabolism",
+      "systems",
+      "regulation"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [
+      "trpE",
+      "tnaA",
+      "tnaB"
+    ],
+    "metabolites": [
+      "L-triptófano",
+      "Corismato"
+    ],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "C",
+    "objective": {
+      "es": "Adaptar un modelo del operón trp para representar la sobreproducción de triptófano en cepas modificadas.",
+      "en": "Adapt a trp operon model to represent tryptophan overproduction in engineered strains."
+    },
+    "methods": {
+      "es": "Ecuaciones dinámicas que incorporan secreción, captación y modificaciones descritas para las cepas GPT1001 y GPT1002.",
+      "en": "Dynamic equations incorporating secretion, uptake, and reported modifications in strains GPT1001 and GPT1002."
+    },
+    "result": {
+      "es": "Las concentraciones finales simuladas quedaron en el mismo orden de magnitud que las mediciones publicadas para las cepas en matraces agitados.",
+      "en": "Simulated final concentrations fell within the same order of magnitude as published measurements for those strains in shake flasks."
+    },
+    "limitation": {
+      "es": "La comparación se limita a condiciones y cepas concretas. Parte de los parámetros se estimó a partir de otros datos publicados.",
+      "en": "The comparison covers specific strains and conditions. Some parameters were estimated using other published data."
+    },
+    "techniques": [
+      {
+        "es": "Ecuaciones diferenciales",
+        "en": "Differential equations"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://gitlab.com/amalib/trp-biot-dynmod",
+        "label": "Código / Code"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "El artículo acredita a Martínez-Antonio por la conceptualización compartida, recursos, redacción inicial compartida, supervisión, gestión del proyecto y financiamiento.",
+      "en": "The article credits Martínez-Antonio with shared conceptualization, resources, shared initial drafting, supervision, project administration, and funding acquisition."
+    }
+  },
+  {
+    "id": "tryptophan-fermentation-2024",
+    "title": "Optimizing Fermentation Strategies for Enhanced Tryptophan Production in Escherichia coli: Integrating Genetic and Environmental Controls for Industrial Applications",
+    "year": 2024,
+    "authors": [
+      "Miguel Angel Ramos-Valdovinos",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Processes",
+    "doi": "10.3390/pr12112422",
+    "url": "https://www.mdpi.com/2227-9717/12/11/2422",
+    "date": "2024-11-02",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "topics": [
+      "metabolism",
+      "bioprocess"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [
+      "L-triptófano"
+    ],
+    "type": "review",
+    "attribution": "group",
+    "evidence": "B",
+    "objective": {
+      "es": "Sintetizar estrategias genéticas y de operación para producir triptófano mediante fermentación bacteriana.",
+      "en": "Synthesize genetic and operational strategies for bacterial tryptophan fermentation."
+    },
+    "methods": {
+      "es": "Revisión de cepas publicadas y de sus condiciones de cultivo, incluidas alimentación, aireación y escalas de operación.",
+      "en": "Review of published strains and culture conditions, including feeding, aeration, and operating scales."
+    },
+    "result": {
+      "es": "La revisión reúne intervenciones sobre la biosíntesis y el suministro de precursores, y compara parámetros de fermentación publicados.",
+      "en": "The review brings together interventions affecting biosynthesis and precursor supply and compares published fermentation parameters."
+    },
+    "limitation": {
+      "es": "Los valores proceden de estudios con condiciones distintas. El título, el rendimiento y la productividad describen aspectos diferentes de un proceso.",
+      "en": "Values come from studies conducted under different conditions. Titer, yield, and productivity describe different aspects of a process."
+    },
+    "techniques": [
+      {
+        "es": "Fermentación microbiana",
+        "en": "Microbial fermentation"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "El artículo acredita a Martínez-Antonio por la conceptualización y validación compartidas, recursos, edición, supervisión, gestión del proyecto y financiamiento.",
+      "en": "The article credits Martínez-Antonio with shared conceptualization and validation, resources, editing, supervision, project administration, and funding acquisition."
+    },
+    "support": [
+      {
+        "url": "https://www.preprints.org/manuscript/202409.2245",
+        "label": "Preprint"
+      }
+    ]
+  },
+  {
+    "id": "iaa-avocado-2026",
+    "title": "A Minimal Synthetic IAA Pathway in Escherichia coli Using Avocado Seed Hydrolysate: A Sustainable and Didactic Platform for Synthetic Biology",
+    "year": 2026,
+    "authors": [
+      "Ana Lilia Hernández-Orihuela",
+      "Lucía Carolina Alzati-Ramírez",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "SynBio",
+    "doi": "10.3390/synbio4020008",
+    "url": "https://doi.org/10.3390/synbio4020008",
+    "date": "2026-05-03",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Evogenia"
+    ],
+    "topics": [
+      "synthetic",
+      "metabolism",
+      "bioprocess",
+      "plants"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Persea americana",
+      "Nicotiana tabacum"
+    ],
+    "genes": [
+      "iaaM",
+      "iaaH"
+    ],
+    "metabolites": [
+      "IAA",
+      "L-triptófano",
+      "IAM"
+    ],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Demostrar una ruta microbiana mínima para producir ácido indol-3-acético con un medio derivado de un residuo agroindustrial.",
+      "en": "Demonstrate a minimal microbial route to indole-3-acetic acid production using a medium derived from agricultural waste."
+    },
+    "methods": {
+      "es": "Expresión de iaaM e iaaH en E. coli TOP10, cultivo con hidrolizado de semilla de aguacate suplementado con triptófano, cuantificación colorimétrica y por HPLC, y bioensayo en tabaco.",
+      "en": "Expression of iaaM and iaaH in E. coli TOP10, growth in tryptophan-supplemented avocado-seed hydrolysate, colorimetric and HPLC quantification, and a tobacco bioassay."
+    },
+    "result": {
+      "es": "El cultivo produjo IAA y los sobrenadantes indujeron enraizamiento de explantes foliares de tabaco en el ensayo.",
+      "en": "The culture produced IAA, and culture supernatants induced rooting in tobacco leaf explants in the assay."
+    },
+    "limitation": {
+      "es": "El estudio corresponde a condiciones de laboratorio con precursor suplementado. La estimación económica es local. Dos coautores declararon participación accionaria en Evogenia, que cofinanció el estudio.",
+      "en": "The study covers laboratory conditions with precursor supplementation. Its cost estimate is local. Two coauthors disclosed shareholdings in Evogenia, which partially funded the study."
+    },
+    "numbers": {
+      "es": "Título reportado de aproximadamente 303–313 µg/mL a las 48 h. Enraizó el 100 % de los explantes del tratamiento indicado.",
+      "en": "Reported titer of approximately 303–313 µg/mL at 48 h. All explants in the specified treatment rooted."
+    },
+    "techniques": [
+      {
+        "es": "Biología sintética",
+        "en": "Synthetic biology"
+      },
+      {
+        "es": "Cromatografía líquida de alta resolución",
+        "en": "High-performance liquid chromatography"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://www.preprints.org/manuscript/202603.2148",
+        "label": "Preprint"
+      },
+      {
+        "url": "https://gitlab.com/amalib/iaa-dbtl",
+        "label": "Datos / Data"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "La declaración acredita a Martínez-Antonio por la conceptualización compartida, software, investigación, recursos, redacción, visualización, gestión del proyecto y financiamiento. La supervisión se atribuye a Hernández-Orihuela.",
+      "en": "The statement credits Martínez-Antonio with shared conceptualization, software, investigation, resources, writing, visualization, project administration, and funding acquisition. Supervision is credited to Hernández-Orihuela."
+    }
+  },
+  {
+    "id": "eragene-2026",
+    "title": "EraGene: A Platform for Harnessing Recurrent Engineering Targets to Guide Metabolite Overproduction in Escherichia coli",
+    "year": 2026,
+    "authors": [
+      "Miguel Angel Ramos-Valdovinos",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "SynBio",
+    "url": "https://doi.org/10.3390/synbio4040023",
+    "date": "2026-11-02",
+    "affiliation": [
+      "Universidad Virtual del Estado de Guanajuato",
+      "Cinvestav Irapuato"
+    ],
+    "topics": [
+      "eragene",
+      "metabolism",
+      "databases",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli"
+    ],
+    "genes": [],
+    "metabolites": [
+      "L-triptófano",
+      "D-glucosa"
+    ],
+    "type": "article",
+    "attribution": "group",
+    "evidence": "C",
+    "objective": {
+      "es": "Reunir modificaciones metabólicas publicadas para orientar el diseño de cepas productoras.",
+      "en": "Collect published metabolic interventions to guide strain design."
+    },
+    "methods": {
+      "es": "Curación manual, representación de datos en Neo4j, análisis retrospectivo de reacciones recurrentes y simulaciones QPAML.",
+      "en": "Manual curation, a Neo4j data representation, retrospective analysis of recurrent reactions, and QPAML simulations."
+    },
+    "result": {
+      "es": "En las simulaciones retrospectivas, el filtro basado en anotaciones redujo la lista media de reacciones candidatas y recuperó gran parte de las modificaciones conocidas en el conjunto analizado.",
+      "en": "In retrospective simulations, an annotation-based filter narrowed the average candidate list and recovered much of the known set of interventions in the analyzed dataset."
+    },
+    "limitation": {
+      "es": "El conjunto reúne intervenciones exitosas publicadas y varias cepas comparten linaje. Los análisis retrospectivos requieren validación prospectiva. La coexistencia de modificaciones en una cepa dificulta atribuir a cada cambio un efecto causal.",
+      "en": "The dataset covers successful published interventions, and several strains share lineages. The retrospective analyses require prospective validation. Multiple modifications within a strain make it hard to attribute a causal effect to any individual change."
+    },
+    "numbers": {
+      "es": "El artículo reporta 3 833 mediciones de 2 611 cepas, recopiladas de 360 estudios. El subconjunto analítico incluye 88 metabolitos producibles a partir de glucosa.",
+      "en": "The article reports 3,833 measurements from 2,611 strains across 360 studies. The analysis subset includes 88 metabolites producible from glucose."
+    },
+    "techniques": [
+      {
+        "es": "Análisis de balance de flujo",
+        "en": "Flux balance analysis"
+      },
+      {
+        "es": "Aprendizaje automático",
+        "en": "Machine learning"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://www.preprints.org/manuscript/202609.1302",
+        "label": "Preprint v1"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.3390/synbio4040023",
+        "label": "Crossref"
+      },
+      {
+        "url": "https://eragene.com/",
+        "label": "EraGene"
+      },
+      {
+        "url": "https://eragene.com/about",
+        "label": "Equipo / Team"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "Según el preprint, Ramos-Valdovinos realizó la curación y el desarrollo de software. Martínez-Antonio compartió la conceptualización y aportó supervisión, recursos, edición, gestión y financiamiento.",
+      "en": "According to the preprint, Ramos-Valdovinos curated data and developed the software. Martínez-Antonio shared conceptualization and contributed supervision, resources, editing, administration, and funding acquisition."
+    },
+    "doi": "10.3390/synbio4040023"
+  },
+  {
+    "id": "lemongrass-cytokinins-2026",
+    "title": "Cytokinin-Mediated Modulation of Essential Oil Composition in Lemongrass (Cymbopogon citratus Greenhouse Plants Derived In Vitro): Hydrodistillation-Based Characterization and Biomass Scaling Model",
+    "year": 2026,
+    "authors": [
+      "María del Rosario Cárdenas-Aquino",
+      "Danna Lorena Ovalle-Ayala",
+      "José Guadalupe Ávila-Hernández",
+      "Enrique Ramírez-Chávez",
+      "Agustino Martínez-Antonio",
+      "Alberto Camas-Reyes",
+      "Lisset Herrera-Isidrón"
+    ],
+    "journal": "Processes",
+    "doi": "10.3390/pr14101532",
+    "url": "https://www.mdpi.com/2227-9717/14/10/1532",
+    "date": "2026-05-09",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Instituto Politécnico Nacional"
+    ],
+    "topics": [
+      "plants",
+      "bioprocess"
+    ],
+    "organisms": [
+      "Cymbopogon citratus"
+    ],
+    "genes": [],
+    "metabolites": [
+      "BAP",
+      "2-iP",
+      "Citral",
+      "Limoneno"
+    ],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Comparar el aceite esencial de plantas de zacate limón cultivadas en invernadero después de tratamientos in vitro con citocininas.",
+      "en": "Compare essential oil from greenhouse lemongrass plants following in vitro cytokinin treatments."
+    },
+    "methods": {
+      "es": "Micropropagación con BAP o 2-iP, crecimiento en invernadero, hidrodestilación y cromatografía de gases con espectrometría de masas.",
+      "en": "Micropropagation with BAP or 2-iP, greenhouse growth, hydrodistillation, and gas chromatography–mass spectrometry."
+    },
+    "result": {
+      "es": "En los medios estudiados, el tratamiento MS 3/3 con BAP favoreció el contenido de α-citral y MS 5/5 con 2-iP el de limoneno.",
+      "en": "Among the tested media, MS 3/3 with BAP favored α-citral content and MS 5/5 with 2-iP favored limonene content."
+    },
+    "limitation": {
+      "es": "Los cálculos de escalamiento son proyecciones del modelo de biomasa. Las comparaciones de composición se refieren a los tratamientos estudiados.",
+      "en": "Scale-up calculations are projections from a biomass model. Composition comparisons apply to the tested treatments."
+    },
+    "techniques": [
+      {
+        "es": "Hidrodestilación",
+        "en": "Hydrodistillation"
+      },
+      {
+        "es": "Cromatografía de gases y espectrometría de masas",
+        "en": "Gas chromatography–mass spectrometry"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "La declaración de autoría atribuye a Martínez-Antonio recursos y revisión del manuscrito.",
+      "en": "The author statement credits Martínez-Antonio with resources and manuscript review."
+    }
+  },
+  {
+    "id": "mucuna-ldopa-2026",
+    "title": "Immunolocalization of L-DOPA and differential MpPPO1–3 expression in the embryonic axis and cotyledons of germinating Mucuna pruriens var. utilis seeds",
+    "year": 2026,
+    "authors": [
+      "Lorena López-Sánchez",
+      "Alberto Camas-Reyes",
+      "Ana Lilia Hernández-Orihuela",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Plant Physiology and Biochemistry",
+    "doi": "10.1016/j.plaphy.2026.111859",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0981942826008454",
+    "date": "2026-10-14",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Instituto de Ecología, A.C."
+    ],
+    "topics": [
+      "plants",
+      "mucuna"
+    ],
+    "organisms": [
+      "Mucuna pruriens"
+    ],
+    "genes": [
+      "MpPPO1",
+      "MpPPO2",
+      "MpPPO3"
+    ],
+    "metabolites": [
+      "L-DOPA"
+    ],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Localizar L-DOPA a escala celular y comparar la expresión de tres genes PPO durante la germinación de Mucuna pruriens var. utilis.",
+      "en": "Localize L-DOPA at the cellular scale and compare expression of three PPO genes during germination of Mucuna pruriens var. utilis."
+    },
+    "methods": {
+      "es": "Inmunocitoquímica con anticuerpo anti-L-DOPA y análisis de expresión en el eje embrionario y los cotiledones.",
+      "en": "Anti-L-DOPA immunocytochemistry and expression analysis in the embryonic axis and cotyledons."
+    },
+    "result": {
+      "es": "Se detectó L-DOPA en el parénquima cotiledonar y en células de los meristemos apicales del eje embrionario.",
+      "en": "L-DOPA was detected in cotyledon parenchyma and in apical meristem cells of the embryonic axis."
+    },
+    "limitation": {
+      "es": "La asociación entre MpPPO1 y el contenido de L-DOPA no alcanzó significación estadística. La posible exportación hacia la rizosfera es una hipótesis.",
+      "en": "The association between MpPPO1 and L-DOPA content did not reach statistical significance. Export into the rhizosphere remains a hypothesis."
+    },
+    "techniques": [
+      {
+        "es": "Inmunocitoquímica",
+        "en": "Immunocytochemistry"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42892094/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08"
+  },
+  {
+    "id": "mucuna-eumelanin-2025",
+    "title": "Sustainable Production and Characterization of Eumelanin from Organically Cultivated Mucuna ceniza Seeds: A High-Performance Biomaterial for Optoelectronic Applications",
+    "year": 2025,
+    "authors": [
+      "Pedro Arturo Herrera-Herrera",
+      "Ana Lilia Hernández-Orihuela",
+      "Alejandra Renteria-Salcedo",
+      "Dulce María Palmerín-Carreño",
+      "Alicia Huazano-García",
+      "Danae Carrillo-Ocampo",
+      "Miguel Angel Ramos-Valdovinos",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "International Journal of Molecular Sciences",
+    "doi": "10.3390/ijms262110298",
+    "url": "https://www.mdpi.com/1422-0067/26/21/10298",
+    "date": "2025-10-23",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Universidad de Guadalajara",
+      "Universidad Autónoma de Querétaro",
+      "Evogenia",
+      "SECIHTI"
+    ],
+    "topics": [
+      "mucuna",
+      "materials",
+      "bioprocess"
+    ],
+    "organisms": [
+      "Mucuna ceniza"
+    ],
+    "genes": [],
+    "metabolites": [
+      "L-DOPA",
+      "Eumelanina"
+    ],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Obtener y caracterizar eumelanina a partir de un extracto de semillas rico en L-DOPA.",
+      "en": "Produce and characterize eumelanin from an L-DOPA-rich seed extract."
+    },
+    "methods": {
+      "es": "Extracción, conversión en biorreactor agitado y caracterización del material por métodos espectroscópicos y térmicos.",
+      "en": "Extraction, conversion in a stirred-tank reactor, and material characterization using spectroscopic and thermal methods."
+    },
+    "result": {
+      "es": "Los análisis caracterizaron un material con rasgos de eumelanina y evaluaron propiedades relevantes para aplicaciones optoelectrónicas.",
+      "en": "Analyses characterized a material with eumelanin features and assessed properties relevant to optoelectronic applications."
+    },
+    "limitation": {
+      "es": "Se caracterizó el material a escala de laboratorio. La nomenclatura del material vegetal sigue la denominación del artículo. La declaración de intereses informa que Evogenia registró la marca del material.",
+      "en": "The material was characterized at laboratory scale. The plant material is named as described in the article. The conflict statement reports that Evogenia registered the material’s trademark."
+    },
+    "numbers": {
+      "es": "Los autores reportan 9.5 g/L de eumelanina purificada y una tasa volumétrica de 1 526.23 ± 10.78 mg L⁻¹ h⁻¹.",
+      "en": "The authors report 9.5 g/L purified eumelanin and a volumetric production rate of 1,526.23 ± 10.78 mg L⁻¹ h⁻¹."
+    },
+    "techniques": [
+      {
+        "es": "Caracterización espectroscópica",
+        "en": "Spectroscopic characterization"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12608612/",
+        "label": "PubMed Central"
+      },
+      {
+        "url": "https://www.mdpi.com/1422-0067/26/21/10298/pdf?version=1761189763",
+        "label": "PDF"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "El artículo documenta la participación compartida de Martínez-Antonio en el diseño conceptual, la investigación, los recursos, la redacción, la supervisión, la gestión del proyecto y el financiamiento.",
+      "en": "The article documents Martínez-Antonio’s shared roles in conceptual design, investigation, resources, writing, supervision, project administration, and funding acquisition."
+    }
+  },
+  {
+    "id": "rpa-ssb-2025",
+    "title": "The concentration of single-stranded DNA-binding proteins is a critical factor in recombinase polymerase amplification (RPA), as revealed by insights from an open-source system",
+    "year": 2025,
+    "authors": [
+      "Francisco Cordoba-Andrade",
+      "Antolin Peralta-Castro",
+      "Paola L García-Medel",
+      "Eduardo Castro-Torres",
+      "Rogelio Gonzalez-Gonzalez",
+      "Atzimba Y Castro-Lara",
+      "Josue D Mora Garduño",
+      "Claudia D Raygoza",
+      "Noe Baruch-Torres",
+      "Alejandro Peñafiel-Ayala",
+      "Corina Diaz-Quezada",
+      "Cesar S Cardona-Felix",
+      "Fernando Guzman Chavez",
+      "Carlos H Trasviña-Arenas",
+      "Rogerio R Sotelo-Mundo",
+      "Beatriz Xoconostle-Cazares",
+      "Agustino Martínez-Antonio",
+      "Luis Gabriel Brieba de Castro"
+    ],
+    "journal": "PeerJ",
+    "doi": "10.7717/peerj.19758",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12357552/",
+    "date": "2025-08-13",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Cinvestav Zacatenco",
+      "Universidad Nacional Autónoma de México",
+      "Centro de Investigaciones Biológicas del Noroeste",
+      "Centro de Investigación en Alimentación y Desarrollo"
+    ],
+    "topics": [
+      "diagnosis"
+    ],
+    "organisms": [
+      "Bacteriófago T4",
+      "SARS-CoV-2"
+    ],
+    "genes": [
+      "gp32",
+      "uvsX",
+      "uvsY",
+      "N"
+    ],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Investigar cómo la composición de un sistema abierto de amplificación por recombinasa y polimerasa afecta el ensayo.",
+      "en": "Investigate how the composition of an open recombinase polymerase amplification system affects the assay."
+    },
+    "methods": {
+      "es": "Comparación de condiciones del ensayo con proteínas recombinantes y blancos sintéticos, seguida de una demostración con ADNc.",
+      "en": "Comparison of assay conditions with recombinant proteins and synthetic targets, followed by a demonstration with cDNA."
+    },
+    "result": {
+      "es": "La concentración de gp32 y la composición del tampón afectaron el desempeño. La demostración de flujo lateral empleó ADNc de ocho muestras clínicas.",
+      "en": "Gp32 concentration and buffer composition affected performance. The lateral-flow demonstration used cDNA from eight clinical samples."
+    },
+    "limitation": {
+      "es": "La demostración acotada no permite estimar sensibilidad ni especificidad clínica poblacional.",
+      "en": "The limited demonstration cannot estimate population-level clinical sensitivity or specificity."
+    },
+    "techniques": [
+      {
+        "es": "Amplificación por recombinasa y polimerasa",
+        "en": "Recombinase polymerase amplification"
+      },
+      {
+        "es": "Flujo lateral",
+        "en": "Lateral flow"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40821985/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "La declaración acredita a Martínez-Antonio por el diseño experimental, el análisis de datos y la preparación de elementos gráficos o tabulares, además de aprobar el manuscrito.",
+      "en": "The statement credits Martínez-Antonio with experimental design, data analysis, figure or table preparation, and manuscript approval."
+    }
+  },
+  {
+    "id": "lemongrass-development-2023",
+    "title": "The Cytokinins BAP and 2-iP Modulate Different Molecular Mechanisms on Shoot Proliferation and Root Development in Lemongrass (Cymbopogon citratus)",
+    "year": 2023,
+    "authors": [
+      "María del Rosario Cárdenas-Aquino",
+      "Alberto Camas-Reyes",
+      "Eliana Valencia-Lozano",
+      "Lorena López-Sánchez",
+      "Agustino Martínez-Antonio",
+      "José Luis Cabrera-Ponce"
+    ],
+    "journal": "Plants",
+    "doi": "10.3390/plants12203637",
+    "url": "https://www.mdpi.com/2223-7747/12/20/3637",
+    "date": "2023-10-21",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Instituto de Ecología, A.C."
+    ],
+    "topics": [
+      "plants",
+      "systems"
+    ],
+    "organisms": [
+      "Cymbopogon citratus"
+    ],
+    "genes": [],
+    "metabolites": [
+      "BAP",
+      "2-iP"
+    ],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Comparar el desarrollo de raíces y brotes en zacate limón tratado in vitro con BAP o 2-iP.",
+      "en": "Compare root and shoot development in lemongrass treated in vitro with BAP or 2-iP."
+    },
+    "methods": {
+      "es": "Cultivo de tejidos, evaluación de fenotipos, medición de expresión y reconstrucción de una red a partir de homólogos.",
+      "en": "Tissue culture, phenotype assessment, expression measurements, and reconstruction of a network from homologs."
+    },
+    "result": {
+      "es": "BAP favoreció la proliferación de brotes y 2-iP favoreció el desarrollo de raíces en el sistema probado.",
+      "en": "BAP favored shoot proliferation and 2-iP favored root development in the tested system."
+    },
+    "limitation": {
+      "es": "La red inferida y los datos de expresión respaldan una interpretación molecular. Cada relación causal requeriría comprobación directa.",
+      "en": "The inferred network and expression data support a molecular interpretation. Each causal relationship would require direct testing."
+    },
+    "techniques": [
+      {
+        "es": "Cultivo de tejidos",
+        "en": "Tissue culture"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37896100/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "La declaración acredita a Martínez-Antonio por obtener financiamiento, aportar recursos y revisar el manuscrito.",
+      "en": "The statement credits Martínez-Antonio with funding acquisition, resources, and manuscript review."
+    }
+  },
+  {
+    "id": "nanoparticles-atherosclerosis-2024",
+    "title": "Nanoparticles loaded with the DNA methyltransferase inhibitor SGI-1027 decrease murine atherosclerosis and inflammation in cultured human macrophages",
+    "year": 2024,
+    "authors": [
+      "Ana Cristina Márquez-Sánchez",
+      "Alejandro Manzanares-Guzmán",
+      "Ramón Carriles-Jaimes",
+      "Lino Sánchez-Segura",
+      "Dannia Colín-Castelán",
+      "Dan Kamen",
+      "Ekaterina K. Koltsova",
+      "Agustino Martínez-Antonio",
+      "Dalia Rodríguez-Ríos",
+      "Gloria del Carmen Romo-Morales",
+      "Gertrud Lund",
+      "Silvio Zaina"
+    ],
+    "journal": "Exploration of Cardiology",
+    "doi": "10.37349/ec.2024.00021",
+    "url": "https://www.explorationpub.com/Journals/ec/Article/101221",
+    "date": "2024-04-10",
+    "affiliation": [
+      "Universidad de Guanajuato",
+      "Cinvestav Irapuato",
+      "Centro de Investigaciones en Óptica",
+      "Samuel Oschin Cancer Research Center",
+      "Cedars-Sinai Medical Center"
+    ],
+    "topics": [
+      "biomedical"
+    ],
+    "organisms": [
+      "Mus musculus",
+      "Homo sapiens"
+    ],
+    "genes": [
+      "Apoe"
+    ],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Examinar efectos de nanopartículas de albúmina cargadas con SGI-1027 en modelos de aterosclerosis e inflamación.",
+      "en": "Examine effects of SGI-1027-loaded albumin nanoparticles in models of atherosclerosis and inflammation."
+    },
+    "methods": {
+      "es": "Ensayos en macrófagos humanos THP-1 cultivados y en ratones deficientes en ApoE.",
+      "en": "Assays in cultured human THP-1 macrophages and ApoE-deficient mice."
+    },
+    "result": {
+      "es": "Los autores observaron cambios de citocinas en cultivo y una menor carga de lesiones en el árbol aórtico murino bajo las condiciones del estudio.",
+      "en": "The authors observed changes in cytokines in culture and a lower lesion burden in the murine aortic tree under study conditions."
+    },
+    "limitation": {
+      "es": "Los efectos variaron según el sitio anatómico. El estudio no resolvió el mecanismo epigenético y la evidencia procede de células cultivadas y ratones.",
+      "en": "Effects varied by anatomical site. The study did not resolve the epigenetic mechanism, and the evidence comes from cultured cells and mice."
+    },
+    "numbers": {
+      "es": "Los autores reportan una reducción de aproximadamente 44 % de la carga de aterosclerosis en el árbol aórtico murino frente a controles.",
+      "en": "The authors report an approximately 44% reduction in murine aortic-tree atherosclerosis burden versus controls."
+    },
+    "techniques": [
+      {
+        "es": "Cultivo celular",
+        "en": "Cell culture"
+      },
+      {
+        "es": "Histología",
+        "en": "Histology"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "La declaración acredita a Martínez-Antonio por validación y supervisión. La conceptualización se atribuye a Silvio Zaina.",
+      "en": "The statement credits Martínez-Antonio with validation and supervision. Conceptualization is credited to Silvio Zaina."
+    }
+  },
+  {
+    "id": "seed-residues-tomato-2023",
+    "title": "Mucuna and Avocado-Seed Residues as Sustainable Fertilizers and Biostimulants for Cherry Tomatoes",
+    "year": 2023,
+    "authors": [
+      "Alberto Camas-Reyes",
+      "Andrés A. Estrada-Luna",
+      "José de Jesús Ponce-Ramírez",
+      "María Karina Manzo-Valencia",
+      "Francisco Galván-Pantoja",
+      "Martha Edith Moreno-Valencia",
+      "Ana Lilia Hernández-Orihuela",
+      "José Arbel Santiago-Díaz",
+      "Silvia Valdés-Rodríguez",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Agrochemicals",
+    "doi": "10.3390/agrochemicals2040029",
+    "url": "https://www.mdpi.com/2813-3145/2/4/29",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Biofab México"
+    ],
+    "topics": [
+      "bioprocess",
+      "plants",
+      "mucuna"
+    ],
+    "organisms": [
+      "Mucuna pruriens",
+      "Persea americana",
+      "Solanum lycopersicum"
+    ],
+    "genes": [],
+    "metabolites": [
+      "L-DOPA"
+    ],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Evaluar el aprovechamiento de residuos de semillas en tomate cherry bajo condiciones de invernadero.",
+      "en": "Evaluate the use of seed residues in greenhouse cherry tomatoes."
+    },
+    "methods": {
+      "es": "El residuo de mucuna se incorporó al sustrato después de extraer L-DOPA. El hidrolizado de aguacate se evaluó como tratamiento foliar.",
+      "en": "Mucuna residue was incorporated into the substrate after L-DOPA extraction. Avocado hydrolysate was evaluated as a foliar treatment."
+    },
+    "result": {
+      "es": "En los experimentos se registraron diferencias entre tratamientos en la floración, la fructificación y el peso seco de los frutos.",
+      "en": "The experiments recorded differences among treatments in flowering, fruiting, and fruit dry weight."
+    },
+    "limitation": {
+      "es": "La evidencia corresponde al cultivo y las condiciones de invernadero estudiados. El nombre Solanum lycopersicum representa el tomate que el artículo denomina Lycopersicon esculentum.",
+      "en": "Evidence applies to the greenhouse crop and conditions studied. Solanum lycopersicum represents the tomato named Lycopersicon esculentum in the article."
+    },
+    "techniques": [
+      {
+        "es": "Ensayo en invernadero",
+        "en": "Greenhouse experiment"
+      }
+    ],
+    "verification": "2026-11-08",
+    "date": "2023-10-10",
+    "contributions": {
+      "es": "El artículo acredita a Martínez-Antonio por conceptualización, recursos, revisión, gestión del proyecto y financiamiento.",
+      "en": "The article credits Martínez-Antonio with conceptualization, resources, review, project administration, and funding acquisition."
+    }
+  },
+  {
+    "id": "regulomepa-2020",
+    "title": "RegulomePA: a database of transcriptional regulatory interactions in Pseudomonas aeruginosa PAO1",
+    "year": 2020,
+    "authors": [
+      "Edgardo Galán-Vásquez",
+      "Beatriz Carely Luna-Olivera",
+      "Marcelino Ramírez-Ibáñez",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Database",
+    "doi": "10.1093/database/baaa106",
+    "url": "https://academic.oup.com/database/article/doi/10.1093/database/baaa106/6013760",
+    "date": "2020-12-01",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Universidad Nacional Autónoma de México",
+      "Universidad Pedagógica Nacional",
+      "Centro de Altos Estudios de la Mixteca"
+    ],
+    "topics": [
+      "databases",
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Pseudomonas aeruginosa"
+    ],
+    "genes": [
+      "rpoD"
+    ],
+    "metabolites": [],
+    "type": "resource",
+    "attribution": "collaborative",
+    "evidence": "B",
+    "objective": {
+      "es": "Reunir interacciones transcripcionales documentadas para Pseudomonas aeruginosa PAO1.",
+      "en": "Compile documented transcriptional interactions for Pseudomonas aeruginosa PAO1."
+    },
+    "methods": {
+      "es": "Curación bibliográfica de interacciones directas entre factores de transcripción, factores sigma y genes blanco. Cada entrada conserva referencias y evidencia.",
+      "en": "Literature curation of direct interactions between transcription factors, sigma factors, and target genes. Entries preserve references and evidence."
+    },
+    "result": {
+      "es": "El recurso asocia cada gen con sus interacciones, el signo regulatorio cuando se conoce y su posición en la red.",
+      "en": "The resource associates genes with their interactions, regulatory sign where known, and network position."
+    },
+    "limitation": {
+      "es": "La red representa la cepa PAO1 y los estudios incluidos en la versión publicada. Una conexión ausente puede seguir sin caracterizarse.",
+      "en": "The network represents strain PAO1 and the studies included in the published release. A missing edge can reflect uncharacterized biology."
+    },
+    "numbers": {
+      "es": "En la publicación de 2020 se reportan 4 827 interacciones y 2 831 nodos.",
+      "en": "The 2020 publication reports 4,827 interactions and 2,831 nodes."
+    },
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33258965/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "El artículo identifica a Edgardo Galán-Vásquez y Agustino Martínez-Antonio como autores de correspondencia de la publicación colectiva.",
+      "en": "The article identifies Edgardo Galán-Vásquez and Agustino Martínez-Antonio as corresponding authors of the collaborative publication."
+    }
+  },
+  {
+    "id": "papaya-maradol-2023",
+    "title": "Sex determination of papaya var. ‘Maradol’ reveals hermaphrodite-to-male sex reversal under greenhouse conditions",
+    "year": 2023,
+    "authors": [
+      "José Guadalupe Ávila-Hernández",
+      "Alberto Camas-Reyes",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Crop Breeding and Applied Biotechnology",
+    "doi": "10.1590/1984-70332023v23n3a35",
+    "url": "https://www.scielo.br/j/cbab/a/dZnSkzKNzmBQtKvfTKDd5VH/?lang=en",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "topics": [
+      "plants",
+      "diagnosis"
+    ],
+    "organisms": [
+      "Carica papaya"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "group",
+    "evidence": "A",
+    "objective": {
+      "es": "Comparar marcadores moleculares de sexo y el fenotipo floral de papaya Maradol en invernadero.",
+      "en": "Compare molecular sex markers and flower phenotype in greenhouse-grown Maradol papaya."
+    },
+    "methods": {
+      "es": "Tipificación por PCR y seguimiento de la morfología floral de plantas cultivadas en invernadero.",
+      "en": "PCR-based typing and monitoring of flower morphology in greenhouse plants."
+    },
+    "result": {
+      "es": "La tipificación inicial coincidió con el sexo floral observado. Durante la etapa cálida, algunas plantas tipificadas como hermafroditas presentaron flores de fenotipo masculino.",
+      "en": "Initial typing agreed with observed flower sex. During the hot period, some plants typed as hermaphroditic displayed male flowers."
+    },
+    "limitation": {
+      "es": "El seguimiento observacional relaciona el fenómeno con las condiciones del invernadero. El mecanismo epigenético propuesto sigue por comprobarse.",
+      "en": "The observational follow-up associates the phenomenon with greenhouse conditions. The proposed epigenetic mechanism remains to be tested."
+    },
+    "numbers": {
+      "es": "El estudio reporta reversión fenotípica en el 43 % de las plantas hermafroditas de su muestra.",
+      "en": "The study reports phenotypic reversal in 43% of hermaphroditic plants in its sample."
+    },
+    "techniques": [
+      {
+        "es": "PCR y marcadores de ADN",
+        "en": "PCR and DNA markers"
+      }
+    ],
+    "verification": "2026-11-08"
+  },
+  {
+    "id": "papaya-rpa-2024",
+    "title": "Step-by-Step Development of a Recombinase Polymerase Amplification (RPA) Assay for Sex Identification in Papaya",
+    "year": 2024,
+    "authors": [
+      "José Guadalupe Ávila-Hernández",
+      "Alejandro Coreño-Alonso",
+      "Mario Alberto Pantoja-Alonso",
+      "Francisco Javier Córdoba-Andrade",
+      "Rogelio González-González",
+      "Corina E. Díaz-Quezada",
+      "Alberto Camas-Reyes",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Applied Biosciences",
+    "doi": "10.3390/applbiosci3040027",
+    "url": "https://www.mdpi.com/2813-0464/3/4/27",
+    "date": "2024-09-24",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "topics": [
+      "plants",
+      "diagnosis"
+    ],
+    "organisms": [
+      "Carica papaya"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "A",
+    "objective": {
+      "es": "Desarrollar un ensayo isotérmico para identificar los tres tipos sexuales de papaya con marcadores de ADN.",
+      "en": "Develop an isothermal assay to identify three papaya sex types using DNA markers."
+    },
+    "methods": {
+      "es": "Evaluación de amplificación por recombinasa y polimerasa sobre marcadores seleccionados de papaya.",
+      "en": "Evaluation of recombinase polymerase amplification of selected papaya markers."
+    },
+    "result": {
+      "es": "El ensayo distinguió marcadores de plantas masculinas, femeninas y hermafroditas en las condiciones probadas, incluso con extracto crudo.",
+      "en": "Under tested conditions, the assay distinguished markers of male, female, and hermaphroditic plants, including in crude extract."
+    },
+    "limitation": {
+      "es": "El estudio documenta una demostración experimental con los marcadores evaluados. El desempeño en otros cultivares y condiciones requiere comprobarse.",
+      "en": "The study documents an experimental demonstration using the evaluated markers. Performance in other cultivars and conditions requires testing."
+    },
+    "techniques": [
+      {
+        "es": "Amplificación por recombinasa y polimerasa",
+        "en": "Recombinase polymerase amplification"
+      }
+    ],
+    "verification": "2026-11-08",
+    "support": [
+      {
+        "url": "https://www.preprints.org/manuscript/202408.2108",
+        "label": "Preprint"
+      }
+    ]
+  },
+  {
+    "id": "papaya-sex-review-2023",
+    "title": "Sex determination in papaya: Current status and perspectives",
+    "year": 2023,
+    "authors": [
+      "José Guadalupe Ávila-Hernández",
+      "María del Rosario Cárdenas-Aquino",
+      "Alberto Camas-Reyes",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Plant Science",
+    "doi": "10.1016/j.plantsci.2023.111814",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37562730/",
+    "date": "2023-08-09",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "topics": [
+      "plants",
+      "diagnosis"
+    ],
+    "organisms": [
+      "Carica papaya"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "review",
+    "attribution": "group",
+    "evidence": "B",
+    "objective": {
+      "es": "Sintetizar la evidencia sobre determinación y expresión sexual en papaya.",
+      "en": "Synthesize evidence on sex determination and sex expression in papaya."
+    },
+    "methods": {
+      "es": "Revisión de estudios de cromosomas sexuales, genes candidatos, factores ambientales y marcadores moleculares.",
+      "en": "Review of studies on sex chromosomes, candidate genes, environmental factors, and molecular markers."
+    },
+    "result": {
+      "es": "La revisión relaciona los tres tipos florales con sus cromosomas sexuales y describe enfoques para identificarlos molecularmente.",
+      "en": "The review relates the three flower types to their sex chromosomes and describes approaches for molecular identification."
+    },
+    "limitation": {
+      "es": "La participación de genes candidatos sigue sin resolverse y la expresión floral puede depender del ambiente.",
+      "en": "Candidate gene roles remain unresolved, and flower expression can depend on the environment."
+    },
+    "verification": "2026-11-08"
+  },
+  {
+    "id": "network-theory-2022",
+    "title": "Basics on network theory to analyze biological systems: a hands-on outlook",
+    "year": 2022,
+    "authors": [
+      "Gerardo Ruiz Amores",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "Functional & Integrative Genomics",
+    "doi": "10.1007/s10142-022-00907-y",
+    "url": "https://link.springer.com/article/10.1007/s10142-022-00907-y",
+    "date": "2022-10-13",
+    "affiliation": [
+      "Cinvestav Irapuato"
+    ],
+    "topics": [
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Diachasmimorpha longicaudata"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "review",
+    "attribution": "group",
+    "evidence": "B",
+    "objective": {
+      "es": "Introducir principios de teoría de redes y su aplicación al análisis de datos biológicos.",
+      "en": "Introduce network theory principles and their application to biological data."
+    },
+    "methods": {
+      "es": "Revisión de medidas de centralidad, modelos de grafos y un flujo reproducible para explorar datos transcriptómicos.",
+      "en": "Review of centrality measures, graph models, and a workflow for exploring transcriptome data."
+    },
+    "result": {
+      "es": "Los ejemplos ilustran cómo pasar de conjuntos de datos transcriptómicos públicos a redes que permiten formular hipótesis.",
+      "en": "Examples illustrate how public transcriptome datasets can be used to build networks for hypothesis generation."
+    },
+    "limitation": {
+      "es": "La centralidad depende de la red construida y una arista inferida requiere evidencia adicional para atribuir causalidad.",
+      "en": "Centrality depends on the constructed network, and an inferred edge requires additional evidence to establish causality."
+    },
+    "techniques": [
+      {
+        "es": "Análisis de redes",
+        "en": "Network analysis"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36227427/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08"
+  },
+  {
+    "id": "endosymbiont-polymerase-2021",
+    "title": "RNA polymerases in strict endosymbiont bacteria with extreme genome reduction show distinct erosions that might result in limited and differential promoter recognition",
+    "year": 2021,
+    "authors": [
+      "Cynthia Paola Rangel-Chávez",
+      "Edgardo Galán-Vásquez",
+      "Azucena Pescador-Tapia",
+      "Luis Delaye",
+      "Agustino Martínez-Antonio"
+    ],
+    "journal": "PLOS ONE",
+    "doi": "10.1371/journal.pone.0239350",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0239350",
+    "date": "2021-07-29",
+    "affiliation": [
+      "Cinvestav Irapuato",
+      "Universidad Nacional Autónoma de México"
+    ],
+    "topics": [
+      "regulation",
+      "systems"
+    ],
+    "organisms": [
+      "Escherichia coli",
+      "Candidatus Hodgkinia cicadicola",
+      "Candidatus Tremblaya phenacola",
+      "Candidatus Tremblaya princeps",
+      "Candidatus Nasuia deltocephalinicola",
+      "Candidatus Carsonella ruddii"
+    ],
+    "genes": [],
+    "metabolites": [],
+    "type": "article",
+    "attribution": "collaborative",
+    "evidence": "C",
+    "objective": {
+      "es": "Examinar cambios en la ARN polimerasa y su posible relación con el reconocimiento de promotores en bacterias endosimbiontes.",
+      "en": "Examine RNA polymerase changes and their possible relationship to promoter recognition in bacterial endosymbionts."
+    },
+    "methods": {
+      "es": "Comparación de secuencias, análisis filogenético y modelado estructural de subunidades, con E. coli como referencia.",
+      "en": "Sequence comparison, phylogenetic analysis, and structural modeling of subunits using E. coli as a reference."
+    },
+    "result": {
+      "es": "Las comparaciones indicaron una pérdida desigual de rasgos conservados entre linajes, particularmente en la subunidad sigma.",
+      "en": "Comparisons indicated uneven loss of conserved features across lineages, particularly in the sigma subunit."
+    },
+    "limitation": {
+      "es": "Las conclusiones sobre los promotores reconocidos se formulan como predicciones derivadas de secuencias y modelos.",
+      "en": "Conclusions about recognized promoters are predictions derived from sequences and models."
+    },
+    "techniques": [
+      {
+        "es": "Análisis filogenético",
+        "en": "Phylogenetic analysis"
+      },
+      {
+        "es": "Modelado estructural",
+        "en": "Structural modeling"
+      }
+    ],
+    "support": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34324516/",
+        "label": "PubMed"
+      }
+    ],
+    "verification": "2026-11-08",
+    "contributions": {
+      "es": "PLOS acredita a Martínez-Antonio por conceptualización compartida, financiamiento, gestión del proyecto, supervisión y revisión del manuscrito.",
+      "en": "PLOS credits Martínez-Antonio with shared conceptualization, funding acquisition, project administration, supervision, and manuscript review."
+    }
+  }
+]

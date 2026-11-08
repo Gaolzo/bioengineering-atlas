@@ -1,0 +1,774 @@
+[
+  {
+    "id": "escherichia-coli",
+    "kind": "organism",
+    "name": "Escherichia coli",
+    "detail": {
+      "es": "Modelo bacteriano y hospedero de ingeniería. K-12 fundamenta los estudios de redes y operones. TOP10 alojó los circuitos de citocininas e IAA, y JU15 se utilizó para producir D-lactato.",
+      "en": "Bacterial model and engineering host. K-12 underpins network and operon studies. TOP10 hosted the cytokinin and IAA circuits, and JU15 was used for D-lactate production."
+    },
+    "publications": [
+      "regulondb-4",
+      "regulondb-5",
+      "ecoli-network-organization",
+      "growth-phase-circuit",
+      "tryptophan-model-2022",
+      "tryptophan-fermentation-2024",
+      "iaa-avocado-2026",
+      "avocado-d-lactate",
+      "stz-tobacco-organogenesis",
+      "engineered-starch-use",
+      "eragene-2026"
+    ],
+    "related": [
+      "crp",
+      "laci",
+      "trpr",
+      "lacz",
+      "trpe",
+      "tnaa",
+      "amya",
+      "l-tryptophan",
+      "iaa",
+      "d-lactate"
+    ],
+    "taxonomy": "Enterobacteriaceae · NCBI Taxonomy 562"
+  },
+  {
+    "id": "pseudomonas-aeruginosa",
+    "kind": "organism",
+    "name": "Pseudomonas aeruginosa",
+    "detail": {
+      "es": "Se estudió la lipasa de la cepa IGB83 en la etapa de la UNAM. La reconstrucción de 2011 analizó una red regulatoria de la especie. RegulomePA describe interacciones de la cepa de referencia PAO1.",
+      "en": "The lipase of strain IGB83 was studied during the UNAM period. The 2011 reconstruction analyzed a regulatory network of the species. RegulomePA describes interactions in the PAO1 reference strain."
+    },
+    "publications": [
+      "lipase-igb83-conference",
+      "lipase-igb83",
+      "pseudomonas-regulatory-network",
+      "regulomepa-2020"
+    ],
+    "related": [
+      "lipa"
+    ],
+    "taxonomy": "Pseudomonadaceae · NCBI Taxonomy 287"
+  },
+  {
+    "id": "pseudomonas-syringae",
+    "kind": "organism",
+    "name": "Pseudomonas syringae",
+    "detail": {
+      "es": "El patovar phaseolicola NPS3121 se estudió como patógeno de frijol y se midió su respuesta a extractos vegetales. El estudio de tabaco cita otro patovar, savastanoi, como origen del gen de referencia ptz.",
+      "en": "Pathovar phaseolicola NPS3121 was studied as a bean pathogen, and its response to plant extracts was measured. The tobacco study cites a different pathovar, savastanoi, as the source of the reference gene ptz."
+    },
+    "publications": [
+      "pseudomonas-bean-extract",
+      "stz-tobacco-organogenesis"
+    ],
+    "related": [
+      "stz"
+    ],
+    "taxonomy": "Pseudomonadaceae · NCBI Taxonomy 317"
+  },
+  {
+    "id": "caulobacter-crescentus",
+    "kind": "organism",
+    "name": "Caulobacter crescentus",
+    "detail": {
+      "es": "Modelo de división celular asimétrica. El capítulo de 2017 usa el nombre histórico C. crescentus. NCBI registra la cepa de referencia CB15 como C. vibrioides. El trabajo integra interacciones mediante reglas booleanas.",
+      "en": "Model of asymmetric cell division. The 2017 chapter uses the historical name C. crescentus. NCBI lists reference strain CB15 as C. vibrioides. The chapter integrates interactions through Boolean rules."
+    },
+    "publications": [
+      "caulobacter-boolean-division"
+    ],
+    "related": [],
+    "taxonomy": "Caulobacteraceae · NCBI Taxonomy 155892"
+  },
+  {
+    "id": "bacillus-subtilis",
+    "kind": "organism",
+    "name": "Bacillus subtilis",
+    "detail": {
+      "es": "Su red regulatoria fue uno de los conjuntos de datos de una comparación computacional de seis especies bacterianas. El estudio mide propiedades de las redes publicadas.",
+      "en": "Its regulatory network was one of the datasets in a computational comparison of six bacterial species. The study measures properties of the published networks."
+    },
+    "publications": [
+      "dominant-vertices-bacterial-networks"
+    ],
+    "related": [],
+    "taxonomy": "Bacillaceae · NCBI Taxonomy 1423"
+  },
+  {
+    "id": "carica-papaya",
+    "kind": "organism",
+    "name": "Carica papaya",
+    "detail": {
+      "es": "Modelo vegetal para el estudio de la expresión sexual y de marcadores moleculares. Se documentaron observaciones en la variedad Maradol y un ensayo experimental de identificación mediante RPA.",
+      "en": "Plant model for studies of sex expression and molecular markers. The publications document observations in the Maradol variety and an experimental RPA identification assay."
+    },
+    "publications": [
+      "papaya-maradol-2023",
+      "papaya-sex-review-2023",
+      "papaya-rpa-2024"
+    ],
+    "related": [],
+    "taxonomy": "Caricaceae",
+    "label": {
+      "es": "Papaya",
+      "en": "Papaya"
+    }
+  },
+  {
+    "id": "cymbopogon-citratus",
+    "kind": "organism",
+    "name": "Cymbopogon citratus",
+    "detail": {
+      "es": "El grupo comparó el desarrollo de brotes y raíces tras tratamientos con BAP y 2-iP, y después analizó aceites esenciales de plantas derivadas de cultivo in vitro.",
+      "en": "The group compared shoot and root development after BAP and 2-iP treatments and later analyzed essential oils from plants propagated in vitro."
+    },
+    "publications": [
+      "lemongrass-development-2023",
+      "lemongrass-cytokinins-2026"
+    ],
+    "related": [
+      "bap",
+      "2-ip"
+    ],
+    "taxonomy": "Poaceae",
+    "label": {
+      "es": "Zacate limón",
+      "en": "Lemongrass"
+    }
+  },
+  {
+    "id": "nicotiana-tabacum",
+    "kind": "organism",
+    "name": "Nicotiana tabacum",
+    "detail": {
+      "es": "Los explantes foliares sirvieron para evaluar la organogénesis con extractos libres de células de E. coli stz, y el enraizamiento tras un tratamiento con sobrenadantes de cultivos productores de IAA.",
+      "en": "Leaf explants were used to test organogenesis with cell-free extracts of stz-expressing E. coli and rooting after treatment with supernatants from IAA-producing cultures."
+    },
+    "publications": [
+      "stz-tobacco-organogenesis",
+      "iaa-avocado-2026"
+    ],
+    "related": [
+      "stz",
+      "iaa"
+    ],
+    "taxonomy": "Solanaceae",
+    "label": {
+      "es": "Tabaco",
+      "en": "Tobacco"
+    }
+  },
+  {
+    "id": "mucuna-pruriens",
+    "kind": "organism",
+    "name": "Mucuna pruriens",
+    "detail": {
+      "es": "En semillas de M. pruriens var. utilis se localizó L-DOPA durante la germinación y se midieron transcritos de tres genes PPO. Son mediciones de localización y expresión en tejidos específicos.",
+      "en": "L-DOPA was localized during germination in M. pruriens var. utilis seeds, and transcripts of three PPO genes were measured. These are measurements of localization and expression in specific tissues."
+    },
+    "publications": [
+      "mucuna-ldopa-2026",
+      "seed-residues-tomato-2023"
+    ],
+    "related": [
+      "l-dopa",
+      "mpppo1",
+      "mpppo2",
+      "mpppo3"
+    ],
+    "taxonomy": "Fabaceae"
+  },
+  {
+    "id": "mucuna-ceniza",
+    "kind": "organism",
+    "name": "Mucuna ceniza",
+    "detail": {
+      "es": "Denominación del material vegetal del artículo de 2025. El extracto de sus semillas fue materia prima para obtener y caracterizar eumelanina en laboratorio.",
+      "en": "Name used for the plant material in the 2025 paper. Its seed extract was used to obtain and characterize eumelanin in the laboratory."
+    },
+    "publications": [
+      "mucuna-eumelanin-2025"
+    ],
+    "related": [
+      "l-dopa",
+      "eumelanin"
+    ]
+  },
+  {
+    "id": "persea-americana",
+    "kind": "organism",
+    "name": "Persea americana",
+    "detail": {
+      "es": "La semilla de aguacate se aprovechó como materia prima para hidrolizados que aportan nutrientes a cultivos bacterianos. La producción de IAA utilizó además L-triptófano suplementado.",
+      "en": "Avocado seed was used to make hydrolysates that supply nutrients to bacterial cultures. IAA production also used supplemental L-tryptophan."
+    },
+    "publications": [
+      "avocado-seed-culture-medium",
+      "avocado-seed-medium-patent",
+      "avocado-d-lactate",
+      "iaa-avocado-2026"
+    ],
+    "related": [
+      "escherichia-coli",
+      "iaa",
+      "d-lactate"
+    ],
+    "taxonomy": "Lauraceae",
+    "label": {
+      "es": "Aguacate",
+      "en": "Avocado"
+    }
+  },
+  {
+    "id": "hodgkinia-cicadicola",
+    "kind": "organism",
+    "name": "Candidatus Hodgkinia cicadicola",
+    "detail": {
+      "es": "Endosimbionte de genoma reducido incluido en una comparación de secuencias y estructuras modeladas de la ARN polimerasa. El reconocimiento de promotores se plantea como predicción.",
+      "en": "Reduced-genome endosymbiont included in a comparison of RNA polymerase sequences and modeled structures. Promoter recognition is framed as a prediction."
+    },
+    "publications": [
+      "endosymbiont-polymerase-2021"
+    ],
+    "related": []
+  },
+  {
+    "id": "bacteriophage-t4",
+    "kind": "organism",
+    "name": "Tequatrovirus T4",
+    "detail": {
+      "es": "Virus bacteriano que aporta tres proteínas de recombinación empleadas en el ensayo RPA abierto. El ensayo utilizó proteínas expresadas y purificadas, y analizó cómo su concentración afecta la reacción.",
+      "en": "Bacterial virus that supplied three recombination proteins for the open RPA assay. The assay used expressed and purified proteins and examined how their concentration affects the reaction."
+    },
+    "publications": [
+      "rpa-ssb-2025"
+    ],
+    "related": [
+      "gp32",
+      "uvsx",
+      "uvsy"
+    ],
+    "taxonomy": "Tequatrovirus T4 · Straboviridae · NCBI Taxonomy 10665",
+    "label": {
+      "es": "Bacteriófago T4",
+      "en": "Bacteriophage T4"
+    }
+  },
+  {
+    "id": "crp",
+    "kind": "gene",
+    "name": "crp / CRP",
+    "detail": {
+      "es": "Gen de E. coli K-12 MG1655 (NCBI Gene 947867, b3357). Su proteína también se llama CAP. En complejo con AMPc, favorece la iniciación en el promotor principal lac P1.",
+      "en": "E. coli K-12 MG1655 gene (NCBI Gene 947867, b3357). Its protein is also called CAP. In complex with cAMP, it promotes initiation at the main lac P1 promoter."
+    },
+    "publications": [
+      "crp-lac-p1",
+      "global-regulators"
+    ],
+    "related": [
+      "escherichia-coli",
+      "camp",
+      "lacz",
+      "laci"
+    ]
+  },
+  {
+    "id": "laci",
+    "kind": "gene",
+    "name": "lacI / LacI",
+    "detail": {
+      "es": "Gen de E. coli K-12 MG1655 (NCBI Gene 945007, b0345). Su proteína represora se une a operadores del operón lac. La cooperación entre O1, O2 y O3 contribuye a la represión.",
+      "en": "E. coli K-12 MG1655 gene (NCBI Gene 945007, b0345). Its repressor protein binds operators of the lac operon. Cooperation between O1, O2 and O3 contributes to repression."
+    },
+    "publications": [
+      "laci-lac-operators"
+    ],
+    "related": [
+      "escherichia-coli",
+      "lacz",
+      "crp"
+    ]
+  },
+  {
+    "id": "lacz",
+    "kind": "gene",
+    "name": "lacZ / LacZ",
+    "detail": {
+      "es": "Gen del operón lac de E. coli K-12 MG1655 (NCBI Gene 945006, b0344). Codifica β-galactosidasa. También se usó como reportero en fusiones para medir la regulación por TrpR.",
+      "en": "Gene in the E. coli K-12 MG1655 lac operon (NCBI Gene 945006, b0344). It encodes β-galactosidase and was also used as a reporter in fusions to measure TrpR regulation."
+    },
+    "publications": [
+      "laci-lac-operators",
+      "crp-lac-p1",
+      "trpr-operator-repression"
+    ],
+    "related": [
+      "escherichia-coli",
+      "laci",
+      "crp"
+    ]
+  },
+  {
+    "id": "trpr",
+    "kind": "gene",
+    "name": "trpR / TrpR",
+    "detail": {
+      "es": "Gen de E. coli K-12 MG1655 (NCBI Gene 948917). TrpR en complejo con L-triptófano reprime la iniciación en el operón trp. También se estudiaron los operadores de aroH y trpR.",
+      "en": "E. coli K-12 MG1655 gene (NCBI Gene 948917). TrpR in complex with L-tryptophan represses initiation at the trp operon. The aroH and trpR operators were also studied."
+    },
+    "publications": [
+      "trpr-operator-repression",
+      "tryptophan-model-2022"
+    ],
+    "related": [
+      "escherichia-coli",
+      "trpe",
+      "l-tryptophan"
+    ]
+  },
+  {
+    "id": "trpe",
+    "kind": "gene",
+    "name": "trpE / TrpE",
+    "detail": {
+      "es": "Gen de E. coli K-12 MG1655 (NCBI Gene 945846). Codifica una subunidad de la antranilato sintasa. Esta enzima convierte corismato en antranilato en la biosíntesis de triptófano.",
+      "en": "E. coli K-12 MG1655 gene (NCBI Gene 945846). It encodes a subunit of anthranilate synthase, the enzyme that converts chorismate to anthranilate in tryptophan biosynthesis."
+    },
+    "publications": [
+      "trpr-operator-repression",
+      "tryptophan-model-2022"
+    ],
+    "related": [
+      "escherichia-coli",
+      "trpr",
+      "chorismate",
+      "l-tryptophan"
+    ]
+  },
+  {
+    "id": "tnaa",
+    "kind": "gene",
+    "name": "tnaA / TnaA",
+    "detail": {
+      "es": "Gen de E. coli K-12 MG1655 (NCBI Gene 948221). Codifica la triptofanasa, que degrada triptófano. El modelo de sobreproducción incorpora cambios del metabolismo del triptófano.",
+      "en": "E. coli K-12 MG1655 gene (NCBI Gene 948221). It encodes tryptophanase, which degrades tryptophan. The overproduction model incorporates changes to tryptophan metabolism."
+    },
+    "publications": [
+      "tryptophan-model-2022"
+    ],
+    "related": [
+      "escherichia-coli",
+      "l-tryptophan"
+    ]
+  },
+  {
+    "id": "amya",
+    "kind": "gene",
+    "name": "amyA / AmyA",
+    "detail": {
+      "es": "Gen de E. coli K-12 MG1655 (NCBI Gene 946434). La cepa de 2014 se diseñó para expresar y secretar esta α-amilasa endógena y aprovechar el almidón.",
+      "en": "E. coli K-12 MG1655 gene (NCBI Gene 946434). The 2014 strain was engineered to express and secrete this endogenous α-amylase and use starch."
+    },
+    "publications": [
+      "engineered-starch-use"
+    ],
+    "related": [
+      "escherichia-coli"
+    ]
+  },
+  {
+    "id": "lipa",
+    "kind": "gene",
+    "name": "lipA / LipA",
+    "detail": {
+      "es": "Gen de la lipasa principal que se caracterizó en P. aeruginosa IGB83. La secuencia de esa cepa se registró como GenBank AF237723.",
+      "en": "Gene for the principal lipase characterized in P. aeruginosa IGB83. The sequence for that strain was deposited as GenBank AF237723."
+    },
+    "publications": [
+      "lipase-igb83"
+    ],
+    "related": [
+      "pseudomonas-aeruginosa"
+    ]
+  },
+  {
+    "id": "stz",
+    "kind": "gene",
+    "name": "stz / ptz",
+    "detail": {
+      "es": "stz es una secuencia sintética basada en el gen bacteriano ptz, que codifica una isopenteniltransferasa. En el estudio de 2019 se expresó stz en E. coli TOP10 y se probaron sus medios libres de células en tabaco.",
+      "en": "stz is a synthetic sequence based on the bacterial gene ptz, which encodes an isopentenyltransferase. The 2019 study expressed stz in E. coli TOP10 and tested its cell-free media in tobacco."
+    },
+    "publications": [
+      "stz-tobacco-organogenesis"
+    ],
+    "related": [
+      "escherichia-coli",
+      "pseudomonas-syringae",
+      "nicotiana-tabacum"
+    ]
+  },
+  {
+    "id": "iaam",
+    "kind": "gene",
+    "name": "iaaM / IaaM",
+    "detail": {
+      "es": "En el circuito sintético de IAA, IaaM es la triptófano 2-monooxigenasa que convierte L-triptófano en indol-3-acetamida. La construcción publicada aporta una secuencia para el sistema ensayado.",
+      "en": "In the synthetic IAA circuit, IaaM is the tryptophan 2-monooxygenase that converts L-tryptophan to indole-3-acetamide. The published construct provides a sequence for the tested system."
+    },
+    "publications": [
+      "iaa-avocado-2026"
+    ],
+    "related": [
+      "iaah",
+      "l-tryptophan",
+      "iam",
+      "iaa"
+    ]
+  },
+  {
+    "id": "iaah",
+    "kind": "gene",
+    "name": "iaaH / IaaH",
+    "detail": {
+      "es": "En el circuito sintético de IAA, IaaH es la hidrolasa que convierte indol-3-acetamida en ácido indol-3-acético.",
+      "en": "In the synthetic IAA circuit, IaaH is the hydrolase that converts indole-3-acetamide into indole-3-acetic acid."
+    },
+    "publications": [
+      "iaa-avocado-2026"
+    ],
+    "related": [
+      "iaam",
+      "iam",
+      "iaa"
+    ]
+  },
+  {
+    "id": "mpppo1",
+    "kind": "gene",
+    "name": "MpPPO1",
+    "detail": {
+      "es": "Gen de polifenol oxidasa de M. pruriens. Se detectó su expresión en el ápice caulinar en el estudio de germinación. La expresión por sí sola no establece una función en la biosíntesis de L-DOPA.",
+      "en": "Polyphenol oxidase gene of M. pruriens. Its expression was detected in the shoot apex in the germination study. Expression alone does not establish a role in L-DOPA biosynthesis."
+    },
+    "publications": [
+      "mucuna-ldopa-2026"
+    ],
+    "related": [
+      "mucuna-pruriens",
+      "mpppo2",
+      "mpppo3",
+      "l-dopa"
+    ]
+  },
+  {
+    "id": "mpppo2",
+    "kind": "gene",
+    "name": "MpPPO2",
+    "detail": {
+      "es": "Gen de polifenol oxidasa de M. pruriens. Su transcrito fue uno de los tres que se compararon entre tejidos durante la germinación.",
+      "en": "Polyphenol oxidase gene of M. pruriens. Its transcript was one of three compared across tissues during germination."
+    },
+    "publications": [
+      "mucuna-ldopa-2026"
+    ],
+    "related": [
+      "mucuna-pruriens",
+      "mpppo1",
+      "mpppo3",
+      "l-dopa"
+    ]
+  },
+  {
+    "id": "mpppo3",
+    "kind": "gene",
+    "name": "MpPPO3",
+    "detail": {
+      "es": "Gen de polifenol oxidasa de M. pruriens. Mostró mayor abundancia relativa de transcritos que MpPPO1 y MpPPO2 en raíz y radícula en las condiciones analizadas.",
+      "en": "Polyphenol oxidase gene of M. pruriens. It showed greater relative transcript abundance than MpPPO1 and MpPPO2 in roots and radicles under the conditions analyzed."
+    },
+    "publications": [
+      "mucuna-ldopa-2026"
+    ],
+    "related": [
+      "mucuna-pruriens",
+      "mpppo1",
+      "mpppo2",
+      "l-dopa"
+    ]
+  },
+  {
+    "id": "gp32",
+    "kind": "gene",
+    "name": "gp32 / Gp32",
+    "detail": {
+      "es": "Proteína de unión a ADN monocatenario del bacteriófago T4. La concentración de esta proteína afectó el rendimiento del sistema experimental de RPA.",
+      "en": "Single-stranded DNA-binding protein from bacteriophage T4. Its concentration affected the yield of the experimental RPA system."
+    },
+    "publications": [
+      "rpa-ssb-2025"
+    ],
+    "related": [
+      "bacteriophage-t4",
+      "uvsx",
+      "uvsy"
+    ]
+  },
+  {
+    "id": "uvsx",
+    "kind": "gene",
+    "name": "uvsX / UvsX",
+    "detail": {
+      "es": "Recombinasa del bacteriófago T4. En RPA participa en el reconocimiento de secuencias homólogas mediante un filamento formado con el oligonucleótido iniciador.",
+      "en": "Recombinase from bacteriophage T4. In RPA it participates in homology recognition through a filament formed with the oligonucleotide primer."
+    },
+    "publications": [
+      "rpa-ssb-2025"
+    ],
+    "related": [
+      "bacteriophage-t4",
+      "gp32",
+      "uvsy"
+    ]
+  },
+  {
+    "id": "uvsy",
+    "kind": "gene",
+    "name": "uvsY / UvsY",
+    "detail": {
+      "es": "Mediador de recombinación del bacteriófago T4. Favorece la incorporación de UvsX al ADN monocatenario.",
+      "en": "Recombination mediator from bacteriophage T4. It promotes loading of UvsX onto single-stranded DNA."
+    },
+    "publications": [
+      "rpa-ssb-2025"
+    ],
+    "related": [
+      "bacteriophage-t4",
+      "gp32",
+      "uvsx"
+    ]
+  },
+  {
+    "id": "l-tryptophan",
+    "kind": "metabolite",
+    "name": "L-triptófano",
+    "label": {
+      "es": "L-triptófano",
+      "en": "L-tryptophan"
+    },
+    "detail": {
+      "es": "Aminoácido aromático (C₁₁H₁₂N₂O₂, PubChem CID 6305). Se estudió su sobreproducción mediante modelos y fermentación, y se añadió como precursor en la ruta sintética de IAA.",
+      "en": "Aromatic amino acid (C₁₁H₁₂N₂O₂, PubChem CID 6305). Its overproduction was studied through modeling and fermentation, and it was added as the precursor for the synthetic IAA pathway."
+    },
+    "publications": [
+      "tryptophan-model-2022",
+      "tryptophan-fermentation-2024",
+      "iaa-avocado-2026",
+      "trpr-operator-repression"
+    ],
+    "related": [
+      "trpr",
+      "trpe",
+      "iaam",
+      "iaa"
+    ]
+  },
+  {
+    "id": "chorismate",
+    "kind": "metabolite",
+    "name": "Corismato",
+    "label": {
+      "es": "Corismato",
+      "en": "Chorismate"
+    },
+    "detail": {
+      "es": "Intermediario que conecta la ruta del shikimato con la síntesis de compuestos aromáticos. La antranilato sintasa lo usa en la ruta del triptófano. La forma de referencia, ácido corísmico, es C₁₀H₁₀O₆ (PubChem CID 12039).",
+      "en": "Intermediate connecting the shikimate pathway to aromatic compound synthesis. Anthranilate synthase uses it in the tryptophan pathway. The reference acid form, chorismic acid, is C₁₀H₁₀O₆ (PubChem CID 12039)."
+    },
+    "publications": [
+      "tryptophan-model-2022"
+    ],
+    "related": [
+      "trpe",
+      "l-tryptophan"
+    ]
+  },
+  {
+    "id": "camp",
+    "kind": "metabolite",
+    "name": "AMPc",
+    "label": {
+      "es": "AMPc",
+      "en": "cAMP"
+    },
+    "detail": {
+      "es": "Monofosfato cíclico de adenosina (C₁₀H₁₂N₅O₆P, PubChem CID 6076). En el caso ilustrado, el complejo con CRP activa lac P1. El efecto depende del promotor.",
+      "en": "Cyclic adenosine monophosphate (C₁₀H₁₂N₅O₆P, PubChem CID 6076). In the case illustrated here, the complex with CRP activates lac P1. The effect depends on the promoter."
+    },
+    "publications": [
+      "crp-lac-p1"
+    ],
+    "related": [
+      "crp",
+      "lacz"
+    ]
+  },
+  {
+    "id": "iaa",
+    "kind": "metabolite",
+    "name": "Ácido indol-3-acético (IAA)",
+    "label": {
+      "es": "Ácido indol-3-acético (IAA)",
+      "en": "Indole-3-acetic acid (IAA)"
+    },
+    "detail": {
+      "es": "Auxina (C₁₀H₉NO₂, PubChem CID 802). El experimento de 2026 reconstruyó una ruta microbiana a partir de L-triptófano suplementado y ensayó el sobrenadante en explantes de tabaco.",
+      "en": "Auxin (C₁₀H₉NO₂, PubChem CID 802). The 2026 experiment reconstructed a microbial pathway from supplemental L-tryptophan and tested the supernatant on tobacco explants."
+    },
+    "publications": [
+      "iaa-avocado-2026"
+    ],
+    "related": [
+      "l-tryptophan",
+      "iam",
+      "iaam",
+      "iaah",
+      "nicotiana-tabacum",
+      "persea-americana"
+    ]
+  },
+  {
+    "id": "iam",
+    "kind": "metabolite",
+    "name": "Indol-3-acetamida (IAM)",
+    "label": {
+      "es": "Indol-3-acetamida (IAM)",
+      "en": "Indole-3-acetamide (IAM)"
+    },
+    "detail": {
+      "es": "Intermediario de la ruta de IAA (C₁₀H₁₀N₂O, PubChem CID 397). El artículo de 2026 propone que un pico adicional podría corresponder a IAM. La asignación del pico quedó sin confirmar.",
+      "en": "Intermediate in the IAA pathway (C₁₀H₁₀N₂O, PubChem CID 397). The 2026 paper proposes that an additional peak might correspond to IAM. The peak assignment remains unconfirmed."
+    },
+    "publications": [
+      "iaa-avocado-2026"
+    ],
+    "related": [
+      "l-tryptophan",
+      "iaa",
+      "iaam",
+      "iaah"
+    ]
+  },
+  {
+    "id": "d-lactate",
+    "kind": "metabolite",
+    "name": "D-lactato",
+    "label": {
+      "es": "D-lactato",
+      "en": "D-lactate"
+    },
+    "detail": {
+      "es": "Producto de fermentación de E. coli JU15 en medio de hidrolizado de semilla de aguacate. El ácido D-láctico es la forma protonada, C₃H₆O₃ (PubChem CID 61503). Las cifras del estudio dependen del modo de fermentación.",
+      "en": "Fermentation product of E. coli JU15 grown on avocado seed hydrolysate medium. D-lactic acid is the protonated form, C₃H₆O₃ (PubChem CID 61503). The study values depend on the fermentation mode."
+    },
+    "publications": [
+      "avocado-d-lactate"
+    ],
+    "related": [
+      "escherichia-coli",
+      "persea-americana"
+    ]
+  },
+  {
+    "id": "bap",
+    "kind": "metabolite",
+    "name": "6-bencilaminopurina (BAP)",
+    "label": {
+      "es": "6-bencilaminopurina (BAP)",
+      "en": "6-Benzylaminopurine (BAP)"
+    },
+    "detail": {
+      "es": "Citocinina aromática (C₁₂H₁₁N₅, PubChem CID 62389). Su aplicación exógena favoreció la proliferación de brotes en el sistema in vitro de zacate limón estudiado.",
+      "en": "Aromatic cytokinin (C₁₂H₁₁N₅, PubChem CID 62389). Exogenous application favored shoot proliferation in the lemongrass in vitro system studied."
+    },
+    "publications": [
+      "lemongrass-development-2023",
+      "lemongrass-cytokinins-2026"
+    ],
+    "related": [
+      "2-ip",
+      "cymbopogon-citratus"
+    ]
+  },
+  {
+    "id": "2-ip",
+    "kind": "metabolite",
+    "name": "N⁶-isopenteniladenina (2-iP)",
+    "label": {
+      "es": "N⁶-isopenteniladenina (2-iP)",
+      "en": "N⁶-Isopentenyladenine (2-iP)"
+    },
+    "detail": {
+      "es": "Citocinina isoprenoide (C₁₀H₁₃N₅, PubChem CID 92180). En el sistema in vitro estudiado favoreció el desarrollo de raíces de zacate limón.",
+      "en": "Isoprenoid cytokinin (C₁₀H₁₃N₅, PubChem CID 92180). It promoted root development in the lemongrass in vitro system studied."
+    },
+    "publications": [
+      "lemongrass-development-2023",
+      "lemongrass-cytokinins-2026"
+    ],
+    "related": [
+      "bap",
+      "cymbopogon-citratus"
+    ]
+  },
+  {
+    "id": "l-dopa",
+    "kind": "metabolite",
+    "name": "L-DOPA",
+    "label": {
+      "es": "L-DOPA",
+      "en": "L-DOPA"
+    },
+    "detail": {
+      "es": "L-3,4-dihidroxifenilalanina (C₉H₁₁NO₄, PubChem CID 6047). Se examinó su localización en semillas de M. pruriens var. utilis, y se empleó un extracto rico en L-DOPA para obtener eumelanina.",
+      "en": "L-3,4-dihydroxyphenylalanine (C₉H₁₁NO₄, PubChem CID 6047). Its localization was examined in M. pruriens var. utilis seeds, and an L-DOPA-rich extract was used to obtain eumelanin."
+    },
+    "publications": [
+      "mucuna-ldopa-2026",
+      "mucuna-eumelanin-2025"
+    ],
+    "related": [
+      "mucuna-pruriens",
+      "mucuna-ceniza",
+      "mpppo1",
+      "mpppo2",
+      "mpppo3",
+      "eumelanin"
+    ]
+  },
+  {
+    "id": "eumelanin",
+    "kind": "metabolite",
+    "name": "Eumelanina",
+    "label": {
+      "es": "Eumelanina",
+      "en": "Eumelanin"
+    },
+    "detail": {
+      "es": "Material pigmentario heterogéneo. El estudio de 2025 caracterizó propiedades espectroscópicas y térmicas del material derivado de semillas. Sus posibles aplicaciones optoelectrónicas se estudian a escala de laboratorio.",
+      "en": "Heterogeneous pigment material. The 2025 study characterized spectroscopic and thermal properties of seed-derived material. Potential optoelectronic applications are being studied at laboratory scale."
+    },
+    "publications": [
+      "mucuna-eumelanin-2025"
+    ],
+    "related": [
+      "mucuna-ceniza",
+      "l-dopa"
+    ]
+  }
+]

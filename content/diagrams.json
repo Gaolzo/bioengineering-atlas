@@ -1,0 +1,627 @@
+[
+  {
+    "id": "operon-architecture",
+    "title": {
+      "es": "Anatomía de un operón bacteriano",
+      "en": "Anatomy of a bacterial operon"
+    },
+    "summary": {
+      "es": "En el operón lac, elementos reguladores del ADN controlan la transcripción coordinada de lacZ, lacY y lacA.",
+      "en": "In the lac operon, DNA regulatory elements control coordinated transcription of lacZ, lacY, and lacA."
+    },
+    "steps": [
+      {
+        "es": "Región reguladora",
+        "en": "Regulatory region"
+      },
+      {
+        "es": "Promotor P1",
+        "en": "P1 promoter"
+      },
+      {
+        "es": "Genes lacZ, lacY, lacA",
+        "en": "lacZ, lacY, lacA genes"
+      },
+      {
+        "es": "ARN policistrónico",
+        "en": "Polycistronic RNA"
+      }
+    ],
+    "publications": [
+      "regulondb-4",
+      "crp-lac-p1",
+      "laci-lac-operators"
+    ],
+    "category": "mechanism",
+    "limitation": {
+      "es": "Esquema sin escala. La ubicación de los operadores se describe en la fuente primaria.",
+      "en": "Schematic with no scale. Operator positions are described in the primary source."
+    }
+  },
+  {
+    "id": "activation-repression",
+    "title": {
+      "es": "Activación y represión de lac",
+      "en": "lac activation and repression"
+    },
+    "summary": {
+      "es": "CRP unido a AMPc favorece el inicio en el promotor P1. LacI unido a operadores reprime la transcripción. Ambos mecanismos pueden intervenir sobre el mismo operón.",
+      "en": "cAMP-bound CRP promotes initiation at the P1 promoter. Operator-bound LacI represses transcription. Both mechanisms can act on the same operon."
+    },
+    "steps": [
+      {
+        "es": "CRP–AMPc: activa",
+        "en": "CRP–cAMP: activates"
+      },
+      {
+        "es": "P1: inicio de transcripción",
+        "en": "P1: transcription initiation"
+      },
+      {
+        "es": "LacI: reprime",
+        "en": "LacI: represses"
+      }
+    ],
+    "publications": [
+      "crp-lac-p1",
+      "laci-lac-operators"
+    ],
+    "category": "mechanism",
+    "limitation": {
+      "es": "Las dos señales representan efectos distintos sobre la expresión. El esquema no calcula su efecto combinado.",
+      "en": "The two inputs represent distinct effects on expression. The schematic does not calculate their combined effect."
+    }
+  },
+  {
+    "id": "transcription-hierarchy",
+    "title": {
+      "es": "Jerarquía de reguladores",
+      "en": "Regulatory hierarchy"
+    },
+    "summary": {
+      "es": "Las redes transcripcionales pueden agrupar reguladores con alcance amplio, reguladores de programas específicos y genes blanco.",
+      "en": "Transcriptional networks can group broad-acting regulators, regulators of specific programs, and target genes."
+    },
+    "steps": [
+      {
+        "es": "Reguladores globales",
+        "en": "Global regulators"
+      },
+      {
+        "es": "Reguladores de módulos",
+        "en": "Module regulators"
+      },
+      {
+        "es": "Genes blanco",
+        "en": "Target genes"
+      }
+    ],
+    "publications": [
+      "global-regulators",
+      "ecoli-network-organization",
+      "ecoli-regulatory-modules"
+    ],
+    "category": "mechanism",
+    "limitation": {
+      "es": "Las capas resumen un análisis de red. Puede haber regulación directa, cruces entre módulos y retroalimentación.",
+      "en": "The layers summarize a network analysis. Direct regulation, cross-module links, and feedback can occur."
+    }
+  },
+  {
+    "id": "synthetic-circuit",
+    "title": {
+      "es": "Circuito genético sintético",
+      "en": "Synthetic gene circuit"
+    },
+    "summary": {
+      "es": "El biorreportero experimental POLA conecta detección de arsenito con una señal de fluorescencia en E. coli.",
+      "en": "The experimental POLA bioreporter connects arsenite sensing to a fluorescence signal in E. coli."
+    },
+    "steps": [
+      {
+        "es": "Entrada: arsenito",
+        "en": "Input: arsenite"
+      },
+      {
+        "es": "Módulo sensor",
+        "en": "Sensor module"
+      },
+      {
+        "es": "Amplificación de la señal",
+        "en": "Signal amplification"
+      },
+      {
+        "es": "Lectura: fluorescencia",
+        "en": "Readout: fluorescence"
+      }
+    ],
+    "publications": [
+      "pola-arsenite-bioreporter",
+      "circuit-host-2020"
+    ],
+    "category": "mechanism",
+    "limitation": {
+      "es": "Se representa la lógica del diseño. El intervalo de respuesta pertenece a las condiciones del ensayo publicado.",
+      "en": "This illustrates the design logic. The response range applies to the published assay conditions."
+    }
+  },
+  {
+    "id": "circuit-host",
+    "title": {
+      "es": "Interacciones entre circuito y hospedero",
+      "en": "Circuit–host interactions"
+    },
+    "summary": {
+      "es": "La expresión de un circuito usa recursos de la célula. El crecimiento y la disponibilidad de esos recursos pueden modificar la respuesta del circuito.",
+      "en": "Circuit expression uses cellular resources. Growth and resource availability can change circuit response."
+    },
+    "steps": [
+      {
+        "es": "Expresión del circuito",
+        "en": "Circuit expression"
+      },
+      {
+        "es": "Demanda de recursos",
+        "en": "Resource demand"
+      },
+      {
+        "es": "Fisiología del hospedero",
+        "en": "Host physiology"
+      },
+      {
+        "es": "Retroalimentación al circuito",
+        "en": "Feedback to the circuit"
+      }
+    ],
+    "publications": [
+      "circuit-host-2020"
+    ],
+    "category": "mechanism",
+    "limitation": {
+      "es": "La revisión sintetiza modelos y experimentos de distintos sistemas. La magnitud y el signo de los efectos dependen del circuito y su contexto.",
+      "en": "The review synthesizes models and experiments from different systems. Effect size and direction depend on the circuit and its context."
+    }
+  },
+  {
+    "id": "cell-states",
+    "title": {
+      "es": "Estados celulares en un modelo booleano",
+      "en": "Cell states in a Boolean model"
+    },
+    "summary": {
+      "es": "En un modelo booleano de la división asimétrica de Caulobacter, cada componente toma un valor lógico y cambia según las reglas del modelo.",
+      "en": "In a Boolean model of asymmetric division in Caulobacter, each component has a logical value and changes according to model rules."
+    },
+    "steps": [
+      {
+        "es": "Estado inicial",
+        "en": "Initial state"
+      },
+      {
+        "es": "Reglas de activación",
+        "en": "Activation rules"
+      },
+      {
+        "es": "Actualización del estado",
+        "en": "State update"
+      },
+      {
+        "es": "Trayectoria del modelo",
+        "en": "Model trajectory"
+      }
+    ],
+    "publications": [
+      "caulobacter-boolean-division"
+    ],
+    "category": "mechanism",
+    "limitation": {
+      "es": "Las reglas discretas permiten explorar una dinámica cualitativa. Los estados no expresan concentraciones ni tiempos medidos.",
+      "en": "Discrete rules explore qualitative dynamics. States do not represent measured concentrations or times."
+    }
+  },
+  {
+    "id": "tryptophan-route",
+    "title": {
+      "es": "Ruta bacteriana hacia triptófano",
+      "en": "Bacterial pathway to tryptophan"
+    },
+    "summary": {
+      "es": "El corismato alimenta la ruta del triptófano. En E. coli, la regulación del operón trp y el transporte influyen sobre la producción y la acumulación.",
+      "en": "Chorismate feeds the tryptophan pathway. In E. coli, trp operon regulation and transport affect production and accumulation."
+    },
+    "steps": [
+      {
+        "es": "Corismato",
+        "en": "Chorismate"
+      },
+      {
+        "es": "Antranilato",
+        "en": "Anthranilate"
+      },
+      {
+        "es": "Intermedios de la ruta",
+        "en": "Pathway intermediates"
+      },
+      {
+        "es": "L-triptófano",
+        "en": "L-tryptophan"
+      }
+    ],
+    "publications": [
+      "tryptophan-model-2022",
+      "tryptophan-fermentation-2024"
+    ],
+    "category": "process",
+    "limitation": {
+      "es": "Se omiten reacciones intermedias y retroalimentaciones. El esquema no calcula flujo, concentración, rendimiento ni productividad.",
+      "en": "Intermediate reactions and feedback are omitted. The schematic does not calculate flux, concentration, yield, or productivity."
+    }
+  },
+  {
+    "id": "eragene-links",
+    "title": {
+      "es": "Relaciones de datos en EraGene",
+      "en": "Data relationships in EraGene"
+    },
+    "summary": {
+      "es": "Una medición se puede rastrear hasta la cepa productora y el estudio. Las modificaciones de genes se relacionan con reacciones del metabolismo.",
+      "en": "A measurement can be traced to the producing strain and its study. Gene modifications are associated with metabolic reactions."
+    },
+    "steps": [
+      {
+        "es": "Estudio y medición",
+        "en": "Study and measurement"
+      },
+      {
+        "es": "Cepa modificada",
+        "en": "Engineered strain"
+      },
+      {
+        "es": "Gen y reacción",
+        "en": "Gene and reaction"
+      },
+      {
+        "es": "Metabolito objetivo",
+        "en": "Target metabolite"
+      }
+    ],
+    "publications": [
+      "eragene-2026"
+    ],
+    "category": "mechanism",
+    "limitation": {
+      "es": "Esquema de las relaciones de datos descritas en el artículo. Cuando una cepa tiene varias modificaciones, la anotación no aísla el efecto causal de cada cambio.",
+      "en": "Schematic of the data relationships described in the article. When a strain carries multiple modifications, the annotation does not isolate the causal effect of each change."
+    }
+  },
+  {
+    "id": "microbial-iaa",
+    "title": {
+      "es": "Biosíntesis microbiana de IAA",
+      "en": "Microbial IAA biosynthesis"
+    },
+    "summary": {
+      "es": "Un circuito de dos genes en E. coli TOP10 convierte triptófano en ácido indol-3-acético a través de indol-3-acetamida.",
+      "en": "A two-gene circuit in E. coli TOP10 converts tryptophan to indole-3-acetic acid via indole-3-acetamide."
+    },
+    "steps": [
+      {
+        "es": "L-triptófano",
+        "en": "L-tryptophan"
+      },
+      {
+        "es": "IaaM → IAM",
+        "en": "IaaM → IAM"
+      },
+      {
+        "es": "IaaH → IAA",
+        "en": "IaaH → IAA"
+      },
+      {
+        "es": "Bioensayo en tabaco",
+        "en": "Tobacco bioassay"
+      }
+    ],
+    "publications": [
+      "iaa-avocado-2026"
+    ],
+    "category": "process",
+    "limitation": {
+      "es": "En el estudio se agregó triptófano al medio. El bioensayo evaluó el enraizamiento en explantes bajo condiciones de laboratorio.",
+      "en": "The study supplemented the medium with tryptophan. The bioassay assessed rooting in explants under laboratory conditions."
+    }
+  },
+  {
+    "id": "avocado-to-medium",
+    "title": {
+      "es": "Semilla de aguacate como medio de cultivo",
+      "en": "Avocado seeds as culture medium"
+    },
+    "summary": {
+      "es": "El hidrolizado de semilla de aguacate aporta sustratos de carbono y se ensayó como parte de un medio bacteriano.",
+      "en": "Avocado seed hydrolysate supplies carbon substrates and was tested as part of a bacterial medium."
+    },
+    "steps": [
+      {
+        "es": "Semilla residual",
+        "en": "Waste seed"
+      },
+      {
+        "es": "Hidrolizado",
+        "en": "Hydrolysate"
+      },
+      {
+        "es": "Medio suplementado",
+        "en": "Supplemented medium"
+      },
+      {
+        "es": "Crecimiento de E. coli",
+        "en": "E. coli growth"
+      }
+    ],
+    "publications": [
+      "avocado-seed-culture-medium",
+      "avocado-d-lactate",
+      "iaa-avocado-2026"
+    ],
+    "category": "process",
+    "limitation": {
+      "es": "La formulación del medio y la cepa varían según el estudio. Un beneficio ambiental neto requiere evaluación de ciclo de vida.",
+      "en": "Medium formulation and strain vary by study. A net environmental benefit requires life-cycle assessment."
+    }
+  },
+  {
+    "id": "cytokinins-lemongrass",
+    "title": {
+      "es": "Citocininas, brotes y raíces",
+      "en": "Cytokinins, shoots, and roots"
+    },
+    "summary": {
+      "es": "En el sistema in vitro estudiado con zacate limón, BAP favoreció la proliferación de brotes y 2-iP favoreció el desarrollo de raíces.",
+      "en": "In the in vitro lemongrass system studied, BAP favored shoot proliferation and 2-iP favored root development."
+    },
+    "steps": [
+      {
+        "es": "Explante de zacate limón",
+        "en": "Lemongrass explant"
+      },
+      {
+        "es": "BAP: proliferación de brotes",
+        "en": "BAP: shoot proliferation"
+      },
+      {
+        "es": "2-iP: desarrollo de raíces",
+        "en": "2-iP: root development"
+      }
+    ],
+    "publications": [
+      "lemongrass-development-2023",
+      "lemongrass-cytokinins-2026"
+    ],
+    "category": "plant",
+    "limitation": {
+      "es": "BAP y 2-iP se aplicaron en tratamientos separados. La respuesta depende de la especie, el tejido y el medio.",
+      "en": "BAP and 2-iP were applied as separate treatments. The response depends on species, tissue, and medium."
+    }
+  },
+  {
+    "id": "mucuna-ldopa-tissues",
+    "title": {
+      "es": "L-DOPA en tejidos de Mucuna",
+      "en": "L-DOPA in Mucuna tissues"
+    },
+    "summary": {
+      "es": "Durante la germinación, el estudio localizó L-DOPA en parénquima cotiledonar y meristemos apicales del eje embrionario.",
+      "en": "During germination, the study localized L-DOPA to cotyledon parenchyma and apical meristems of the embryonic axis."
+    },
+    "steps": [
+      {
+        "es": "Semilla germinante",
+        "en": "Germinating seed"
+      },
+      {
+        "es": "Cotiledones: parénquima",
+        "en": "Cotyledons: parenchyma"
+      },
+      {
+        "es": "Eje: meristemos apicales",
+        "en": "Axis: apical meristems"
+      }
+    ],
+    "publications": [
+      "mucuna-ldopa-2026"
+    ],
+    "category": "plant",
+    "limitation": {
+      "es": "Los tejidos son sitios de detección, no etapas sucesivas. La localización no establece la función de cada gen PPO ni el destino de la molécula.",
+      "en": "Tissues are sites of detection rather than successive stages. Localization does not establish each PPO gene’s function or the molecule’s fate."
+    }
+  },
+  {
+    "id": "eumelanin-material",
+    "title": {
+      "es": "De L-DOPA a eumelanina",
+      "en": "From L-DOPA to eumelanin"
+    },
+    "summary": {
+      "es": "El estudio convirtió un extracto de semillas de Mucuna rico en L-DOPA y caracterizó el pigmento resultante con métodos espectroscópicos.",
+      "en": "The study converted an L-DOPA-rich extract from Mucuna seeds and characterized the resulting pigment with spectroscopic methods."
+    },
+    "steps": [
+      {
+        "es": "Semillas de Mucuna",
+        "en": "Mucuna seeds"
+      },
+      {
+        "es": "Extracto rico en L-DOPA",
+        "en": "L-DOPA-rich extract"
+      },
+      {
+        "es": "Conversión en biorreactor",
+        "en": "Bioreactor conversion"
+      },
+      {
+        "es": "Caracterización del pigmento",
+        "en": "Pigment characterization"
+      }
+    ],
+    "publications": [
+      "mucuna-eumelanin-2025"
+    ],
+    "category": "process",
+    "limitation": {
+      "es": "Se muestran etapas del estudio de caracterización. La utilidad comercial y el balance ambiental requieren evidencia adicional.",
+      "en": "These are stages of the characterization study. Commercial utility and environmental impact require further evidence."
+    }
+  },
+  {
+    "id": "rpa-principle",
+    "title": {
+      "es": "Cómo funciona la RPA",
+      "en": "How RPA works"
+    },
+    "summary": {
+      "es": "La recombinasa ayuda al cebador a encontrar una secuencia complementaria. Una proteína estabiliza el ADN de cadena sencilla y una polimerasa extiende el cebador.",
+      "en": "Recombinase helps the primer find a complementary sequence. A protein stabilizes single-stranded DNA, and a polymerase extends the primer."
+    },
+    "steps": [
+      {
+        "es": "Unión de recombinasa y cebador",
+        "en": "Recombinase and primer bind"
+      },
+      {
+        "es": "Reconocimiento de la secuencia",
+        "en": "Sequence recognition"
+      },
+      {
+        "es": "Estabilización por SSB",
+        "en": "Stabilization by SSB"
+      },
+      {
+        "es": "Extensión por polimerasa",
+        "en": "Polymerase extension"
+      }
+    ],
+    "publications": [
+      "rpa-ssb-2025",
+      "papaya-rpa-2024"
+    ],
+    "category": "method",
+    "limitation": {
+      "es": "Esquema molecular de amplificación isotérmica. El rendimiento depende del ensayo y del tipo de muestra.",
+      "en": "Molecular schematic of isothermal amplification. Performance depends on assay and sample type."
+    }
+  },
+  {
+    "id": "avocado-d-lactate-process",
+    "title": {
+      "es": "Del hidrolizado a D-lactato",
+      "en": "From hydrolysate to D-lactate"
+    },
+    "summary": {
+      "es": "El trabajo evaluó la fermentación de azúcares del hidrolizado de semilla de aguacate por la cepa E. coli JU15.",
+      "en": "The study evaluated fermentation of sugars from avocado seed hydrolysate by E. coli strain JU15."
+    },
+    "steps": [
+      {
+        "es": "Semilla de aguacate",
+        "en": "Avocado seed"
+      },
+      {
+        "es": "Azúcares del hidrolizado",
+        "en": "Hydrolysate sugars"
+      },
+      {
+        "es": "Fermentación con E. coli JU15",
+        "en": "Fermentation with E. coli JU15"
+      },
+      {
+        "es": "D-lactato en el cultivo",
+        "en": "D-lactate in culture"
+      }
+    ],
+    "publications": [
+      "avocado-d-lactate"
+    ],
+    "category": "process",
+    "limitation": {
+      "es": "La concentración medida depende de la carga de azúcares y del modo de operación. La cifra de productividad de la Tabla 2 difiere de la del resumen.",
+      "en": "Measured concentration depends on sugar loading and operating mode. The productivity figure in Table 2 differs from the abstract."
+    }
+  },
+  {
+    "id": "iaa-tobacco-explants",
+    "title": {
+      "es": "IAA microbiana y explantes de tabaco",
+      "en": "Microbial IAA and tobacco explants"
+    },
+    "summary": {
+      "es": "En el estudio de IAA, el cultivo bacteriano produjo la auxina y el explante de tabaco sirvió para evaluar su actividad biológica.",
+      "en": "In the IAA study, bacterial culture produced the auxin and tobacco explants were used to assess biological activity."
+    },
+    "steps": [
+      {
+        "es": "Producción bacteriana",
+        "en": "Bacterial production"
+      },
+      {
+        "es": "Sobrenadante con IAA",
+        "en": "IAA-containing supernatant"
+      },
+      {
+        "es": "Explante foliar de tabaco",
+        "en": "Tobacco leaf explant"
+      },
+      {
+        "es": "Formación de raíces",
+        "en": "Root formation"
+      }
+    ],
+    "publications": [
+      "iaa-avocado-2026"
+    ],
+    "category": "plant",
+    "limitation": {
+      "es": "La auxina del tratamiento se aplicó desde fuera del tejido. El resultado corresponde al bioensayo publicado.",
+      "en": "The treatment auxin was applied externally to the tissue. The result applies to the published bioassay."
+    }
+  },
+  {
+    "id": "papaya-sex-markers",
+    "title": {
+      "es": "Marcadores de sexo en papaya",
+      "en": "Sex markers in papaya"
+    },
+    "summary": {
+      "es": "Los ensayos de amplificación discriminan marcadores de ADN. El seguimiento de papaya Maradol documentó que el fenotipo floral puede cambiar respecto a la tipificación molecular inicial.",
+      "en": "Amplification assays distinguish DNA markers. Monitoring of Maradol papaya showed that floral phenotype can change relative to initial molecular typing."
+    },
+    "steps": [
+      {
+        "es": "Muestra de papaya",
+        "en": "Papaya sample"
+      },
+      {
+        "es": "Marcador de ADN",
+        "en": "DNA marker"
+      },
+      {
+        "es": "Lectura molecular",
+        "en": "Molecular readout"
+      },
+      {
+        "es": "Comparación con la flor",
+        "en": "Comparison with flower phenotype"
+      }
+    ],
+    "publications": [
+      "papaya-rpa-2024",
+      "papaya-maradol-2023"
+    ],
+    "category": "plant",
+    "limitation": {
+      "es": "La detección del marcador y el fenotipo floral son observaciones diferentes. El mecanismo de la reversión observada requiere más evidencia.",
+      "en": "Marker detection and flower phenotype are different observations. The mechanism of observed sex reversal requires more evidence."
+    }
+  }
+]
